@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>oR6hIkP9cqjFQVAQ7B3YqeXocd8=</checksum>
+        <child_can_have_roles>false</child_can_have_roles>
+        <children_layout>0</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <display_child_max_num>8</display_child_max_num>
+        <done_status_text/>
+        <hide_getting_started>false</hide_getting_started>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_root_content>true</is_root_content>
+        <order>0</order>
+        <parent/>
+        <parents/>
+        <progress_text/>
+        <roles/>
+        <root_intro_frame_link>https://sndppnowxradiflow1015demo.service-now.com/x_radif_sgc_$radiflow_guided_setup.do</root_intro_frame_link>
+        <root_parent/>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 08:10:05</sys_created_on>
+        <sys_id>3f02879c1b79341023faeb13604bcb8e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Radiflow Integration with CMDB</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>gsw_content_group_3f02879c1b79341023faeb13604bcb8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-31 08:38:55</sys_updated_on>
+        <title>Radiflow Integration with CMDB</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f02879c1b79341023faeb13604bcb8e"/>
+</record_update>

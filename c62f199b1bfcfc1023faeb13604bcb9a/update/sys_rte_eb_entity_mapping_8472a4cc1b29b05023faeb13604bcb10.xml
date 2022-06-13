@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>21faa389872320104b5c732d36cb0b12</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>temp.ip_address[*]ToIP Address 1</name>
+        <order>280</order>
+        <source_sys_rte_eb_entity display_value="temp.ip_address[*]">726224cc1b29b05023faeb13604bcb07</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:33</sys_created_on>
+        <sys_id>8472a4cc1b29b05023faeb13604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temp.ip_address[*]ToIP Address 1</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_8472a4cc1b29b05023faeb13604bcb10</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:36:33</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IP Address 1">876224cc1b29b05023faeb13604bcb5a</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

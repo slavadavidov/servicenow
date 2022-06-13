@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_point">
+    <sys_extension_point action="INSERT_OR_UPDATE">
+        <api_name>x_radif_sgc.SGRadiflowOTAssetImportExtensionPoint</api_name>
+        <description>SG Radiflow  OT Asset Import Extension Point. This includes two methods:&#13;
+1. getAssetCMDBClassNameWithSysId.&#13;
+2. getComputerType.</description>
+        <example><![CDATA[var SGRadiflowOTAssetImportExtensionPoint = Class.create();
+SGOTAssetImportExtensionPoint.prototype = {
+    initialize: function() {
+    },
+
+     getAssetCMDBSysClassNameWithOtEntityTypeSysId: function(/*string*/ type, /*string*/ osVersion, /*string*/ firmwareVersion){
+		/* Function to classify the device based on the type, os version and firmware version.
+		* type - specified the type or function or role of the asset
+		* osVersion - Operating System version running on the device
+		* firmwareVersion - firmware version running on the device
+		* SHOULD return a string of CMDB Sys class name to which asset belongs to and the OT Entity Type sys id concatenated by :::.
+		* Eg. If there is a computer that is be used as an HMI. Then the asset should be placed in the respective 
+		* computer/server class based on the OS version or firmware version. But since it is acting as HMI, the OT 
+		* Entity Sys id returned should be of HMI from cmdb_ot_entity_type table.
+		* So the final returned String for the above is cmdb_ci_computer:::<sys id of hmi from cmdb_ot_entity_type table>
+		*/
+		return ":::";
+	},
+	
+	getComputerType: function(/*string*/ operatingSystem){
+		/* Classify the asset based to computer or one of its child classes based on the operating system.
+		* operatingSystem - the operating system.
+		*/
+		return "";
+	},
+
+    type: 'SGRadiflowOTAssetImportExtensionPoint'
+};]]></example>
+        <name>SGRadiflowOTAssetImportExtensionPoint</name>
+        <restrict_scope>false</restrict_scope>
+        <sys_class_name>sys_extension_point</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-14 11:13:28</sys_created_on>
+        <sys_id>e4060d161bee7c1023faeb13604bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGRadiflowOTAssetImportExtensionPoint</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_extension_point_e4060d161bee7c1023faeb13604bcb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-14 11:13:28</sys_updated_on>
+    </sys_extension_point>
+</record_update>

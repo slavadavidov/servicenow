@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2021-07-01 08:47:18</change_date>
+        <changed_by display_value="Slava Davidov">a97395f31b72a81023faeb13604bcb4f</changed_by>
+        <content display_value="Enable Jamf proApi property">8134a88e73f220104ae4b41afaf6a745</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-01 08:47:18</sys_created_on>
+        <sys_id>5928560a1b49b8100ef431951a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2021-07-01 08:47:18</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>gsw_change_log_5928560a1b49b8100ef431951a4bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 08:47:18</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
+    <gsw_content_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum>A5Ww95oI7/DqjtDzWxcWYbCpS1c=</checksum>
+        <child_can_have_roles>false</child_can_have_roles>
+        <children_layout>1</children_layout>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description><![CDATA[<p>To complete this step you need the following data from your administrator:</p>
+<ul style="list-style-position: inside;"><li>Your iSID server ip address</li><li>Your Credential alias name</li></ul>]]></description>
+        <display_child_max_num/>
+        <done_status_text/>
+        <hide_getting_started>false</hide_getting_started>
+        <icon/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_root_content>false</is_root_content>
+        <order>200</order>
+        <parent display_value="Radiflow Integration with CMDB">3f02879c1b79341023faeb13604bcb8e</parent>
+        <parents>3f02879c1b79341023faeb13604bcb8e</parents>
+        <progress_text/>
+        <roles/>
+        <root_intro_frame_link/>
+        <root_parent display_value="Radiflow Integration with CMDB">3f02879c1b79341023faeb13604bcb8e</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>true</supports_child_content>
+        <sys_class_name>gsw_content_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 11:53:36</sys_created_on>
+        <sys_id>53a7fbdc1bab70100ef431951a4bcb2f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Configure iSID Connection</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>gsw_content_group_53a7fbdc1bab70100ef431951a4bcb2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-01 07:32:56</sys_updated_on>
+        <title>Configure iSID Connection</title>
+        <weight>1</weight>
+    </gsw_content_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=53a7fbdc1bab70100ef431951a4bcb2f"/>
+</record_update>

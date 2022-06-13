@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.asset_classe_name.startsWith('cmdb_ci_ot')))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>temp#asset_classe_nameSTARTSWITHcmdb_ci_ot</encoded_query>
+        <entity_mapping_group>7b496f45872320104b5c732d36cb0bdc</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToOperational Technology (OT) 1</name>
+        <order>240</order>
+        <source_sys_rte_eb_entity display_value="temp">a562a0cc1b29b05023faeb13604bcb31</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:34</sys_created_on>
+        <sys_id>5472a4cc1b29b05023faeb13604bcbe2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tempToOperational Technology (OT) 1</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_5472a4cc1b29b05023faeb13604bcbe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:45:35</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Operational Technology (OT) 1">476224cc1b29b05023faeb13604bcb3e</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

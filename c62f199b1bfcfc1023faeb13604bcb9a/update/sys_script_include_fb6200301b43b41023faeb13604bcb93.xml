@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_radif_sgc.SGRadiflowOTAssetImportExtensionPointConnection</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Implements extension point x_radif_sgc.SGRadiflowOTAssetImportExtensionPoint
+SG Radiflow  OT Asset Import Extension Point. This includes two methods:&#13;
+1. getAssetCMDBClassNameWithSysId.&#13;
+2. getComputerType.</description>
+        <name>SGRadiflowOTAssetImportExtensionPointConnection</name>
+        <script><![CDATA[var SGRadiflowOTAssetImportExtensionPointConnection = Class.create();
+SGRadiflowOTAssetImportExtensionPointConnection.prototype = {
+    initialize: function () {
+    },
+
+    getComputerType: function (operatingSystem) {
+        var inputOS = operatingSystem.trim().toLowerCase();
+        if (gs.nil(inputOS)) {
+            return "";
+        }
+        if (inputOS in sn_cmdb_ci_class.SGOTAssetConstants.OSVersionVsComputerTypeMap) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.OSVersionVsComputerTypeMap[inputOS];
+        }
+        else if (inputOS.includes("windows server")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.WINDOWS_SERVER;
+        }
+        else if (inputOS.includes("linux") ||
+            inputOS.includes("arch") ||
+            inputOS.includes("centos") ||
+            inputOS.includes("debian") ||
+            inputOS.includes("fedora") ||
+            inputOS.includes("suse") ||
+            inputOS.includes("oracle") ||
+            inputOS.includes("red hat") ||
+            inputOS.includes("rhel") ||
+            inputOS.includes("ubuntu")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.LINUX_SERVER;
+        }
+        else if (inputOS.includes("aix")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.AIX_SERVER;
+        }
+        else if (inputOS.includes("esx")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.ESX_SERVER;
+        }
+        else if (inputOS.includes("hp/ux") ||
+            inputOS.includes("hpux")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.HPUX_SERVER;
+        }
+        else if (inputOS.includes("hyper-v") ||
+            inputOS.includes("hyperv") ||
+            inputOS.includes("hyper")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.HYPERV_SERVER;
+        }
+        else if (inputOS.includes("solaris") ||
+            inputOS.includes("sunos") ||
+            inputOS.includes("sun os")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.SOLARIS_SERVER;
+        }
+        else if (inputOS.includes("macos x server") ||
+            inputOS.includes("macos server") ||
+            inputOS.includes("os x") ||
+            inputOS.includes("osx")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OSX_SERVER;
+        }
+        else if (inputOS.includes("unix") ||
+            inputOS.includes("gnu")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.UNIX_SERVER;
+        }
+        else if (inputOS.includes("server")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.SERVER;
+        }
+        else if (inputOS.includes("win") || inputOS.includes("windows") || inputOS.includes("microsoft")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.COMPUTER;
+        }
+        return "";
+    },
+    // Get the CMDB Sys Class name to which the asset to be place into along with
+    // sys_id of the entity type, concatinated using ":::".
+    // If a "computer" acting as an "HMI", the cmdb sys class name returned is "computer"
+    // and the sys id returned is of "HMI" entity type from cmdb_ot_entity_type table.
+    // Returned string for above case "cmdb_ci_computer:::<sys_id of hmi entity type>"
+    // If there is no matching entity type found in the cmdb_ot_entity_type, then
+    // sys_id returned is empty.
+    getAssetCMDBSysClassNameWithOtEntityTypeSysId: function (type, osVersion, firmwareVersion) {
+        // Store the actual cmdb class sys name into which
+        // the asset will be placed.
+        var assetSysClassName = "";
+        // Store the asset type/role and use it to get the sysId from cmdb_ot_entity_type table.
+        // If a computer is being used as an HMI, store the type "hmi" in this variable (the
+        // actual class, computer, to which the asset is added is stored in assetSysClassName variable) and get
+        // the sysId of the "hmi" entity type from cmdb_ot_entity_type table.
+        var assetType = "";
+        //var assetClassName = "";
+
+        // delimitter used to concat the resulting sys class name and entity type sys id.
+        var delimiter = ":::";
+        var inputType = type.trim().toLowerCase();
+        if (gs.nil(inputType)) {
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_BASE;
+            return assetSysClassName.concat(delimiter).concat(assetType);
+        }
+        // store the sys class name to which asset belongs to based on the OS.
+        var classBasedOnOS = "";
+        //Firmware may contain the OS that is running in the asset.
+        // Store the sys class name to which asset belongs to based on the Firmware.
+        var classBasedOnFirmware = "";
+        if (!gs.nil(osVersion)) {
+            classBasedOnOS = this.getComputerType(osVersion);
+        }
+        if (!gs.nil(firmwareVersion)) {
+            classBasedOnFirmware = this.getComputerType(firmwareVersion);
+        }
+        var classifyBasedOnOS = true;
+        if (inputType.includes("hmi") || inputType.includes("human machine interface")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.HMI;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.HMI;
+        }
+        else if (inputType.includes("historian")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.HISTORIAN;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.HISTORIAN;
+        }
+        else if (inputType.includes("field device")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.OT_FIELD_DEVICE;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_FIELD_DEVICE;
+        }
+        else if (inputType.includes("control system")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.OT_CONTROL_SYSTEM;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_CONTROL_SYSTEM;
+        }
+        else if (inputType.includes("scada server")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.SCADA_SERVER;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.SCADA_SERVER;
+        }
+        else if (inputType.includes("dpu") || inputType.includes("distributed processing unit")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.DPU;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.DPU;
+        }
+        else if (inputType.includes("rtu") || inputType.includes("remote terminal unit")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.RTU;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.RTU;
+        }
+        else if (inputType.includes("control module")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.OT_CONTROL_MODULE;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_CONTROL_MODULE;
+        }
+        else if (inputType.includes("ied") || inputType.includes("intelligent electronic device")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.IED;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.IED;
+        }
+        else if (inputType.includes("dcs") || inputType.includes("distributed control system")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.DCS;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.DCS;
+        }
+        else if (inputType.includes("plc") || inputType.includes("programmable logic controller")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.PLC;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.PLC;
+        }
+        else if (inputType.includes("cnc") || inputType.includes("computer numerical control")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.CNC;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.CNC;
+        }
+        else if (inputType.includes("actuator")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.INDUSTRIAL_ACTUATOR;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.INDUSTRIAL_ACTUATOR;
+        }
+        else if (inputType.includes("robot")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.INDUSTRIAL_ROBOT;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.INDUSTRIAL_ROBOT;
+        }
+        else if (inputType.includes("sensor")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.INDUSTRIAL_SENSOR;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.INDUSTRIAL_SENSOR;
+        }
+        else if (inputType.includes("drive")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.INDUSTRIAL_DRIVE;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.INDUSTRIAL_DRIVE;
+        }
+        else if (inputType.includes("scada client")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.SCADA_CLIENT;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.SCADA_CLIENT;
+        }
+        else if (inputType.includes("ews") || inputType.includes("engineering workstation")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.EWS;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.EWS;
+        }
+        else if (inputType.includes("computer")) {
+            //assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.COMPUTER;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.COMPUTER;
+        }
+        else if (inputType.includes("ot device") || inputType.includes("operational technology device")) {
+            assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.OT_BASE;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_BASE;
+        }
+        else if (inputType.includes("ids") || inputType.includes("intrusion detection system")) {
+            //assetType = sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE.INTRUSION_DETECTION_SYSTEM;
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.INTRUSION_DETECTION_SYSTEM;
+            classifyBasedOnOS = false;
+        }
+        else if (inputType.includes("switch")) {
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.IP_SWITCH;
+            classifyBasedOnOS = false;
+        }
+        else if (inputType.includes("router")) {
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.IP_ROUTER;
+            classifyBasedOnOS = false;
+        }
+        else if (inputType.includes("firewall")) {
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.IP_FIREWALL;
+            classifyBasedOnOS = false;
+        }
+        else {
+            assetSysClassName = sn_cmdb_ci_class.SGOTAssetConstants.ASSET_SYS_CLASS.OT_BASE;
+            // No need to classify the device based on the OS since there is
+            // no device type passed or is empty.
+            classifyBasedOnOS = false;
+        }
+        if (classifyBasedOnOS && (!gs.nil(classBasedOnOS) || !gs.nil(classBasedOnFirmware))) {
+            assetSysClassName = (!gs.nil(classBasedOnOS)) ? classBasedOnOS : classBasedOnFirmware;
+        }
+        //return assetSysClassName.concat(delimiter).concat(this.getOTAssetTypeSysId(assetType));
+        return assetSysClassName.concat(delimiter).concat(sn_cmdb_ci_class.SGOTAssetConstants.OT_ENTITY_TYPE_VS_SYS_ID_MAP.getSysId(assetType));
+    },
+
+    type: 'SGRadiflowOTAssetImportExtensionPointConnection'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 10:46:22</sys_created_on>
+        <sys_id>fb6200301b43b41023faeb13604bcb93</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SGRadiflowOTAssetImportExtensionPointConnection</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_script_include_fb6200301b43b41023faeb13604bcb93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-22 10:37:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

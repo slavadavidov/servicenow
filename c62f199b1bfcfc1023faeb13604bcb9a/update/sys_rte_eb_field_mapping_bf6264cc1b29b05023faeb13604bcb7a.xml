@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="module[*].correlation_id">f162a0cc1b29b05023faeb13604bcbb2</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:32</sys_created_on>
+        <sys_id>bf6264cc1b29b05023faeb13604bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="impTotemp.module[*]">736264cc1b29b05023faeb13604bcb79</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_bf6264cc1b29b05023faeb13604bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:36:32</sys_updated_on>
+        <target_sys_rte_eb_field display_value="correlation_id">1e62e0cc1b29b05023faeb13604bcb49</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

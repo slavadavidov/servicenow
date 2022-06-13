@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if ((('cmdb_ci_ot_control,cmdb_ci_ot_cnc,cmdb_ci_ot_dcs,cmdb_ci_ot_dpu,cmdb_ci_ot_ied,cmdb_ci_ot_control_module,cmdb_ci_ot_plc,cmdb_ci_ot_rtu,cmdb_ci_ot_scada_server,cmdb_ci_ot_industrial_3d_printer'.split(',').indexOf(input.temp.asset_classe_name) > -1))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>temp#asset_classe_nameINcmdb_ci_ot_control,cmdb_ci_ot_cnc,cmdb_ci_ot_dcs,cmdb_ci_ot_dpu,cmdb_ci_ot_ied,cmdb_ci_ot_control_module,cmdb_ci_ot_plc,cmdb_ci_ot_rtu,cmdb_ci_ot_scada_server,cmdb_ci_ot_industrial_3d_printer</encoded_query>
+        <entity_mapping_group>10e4c287872320104b5c732d36cb0b1f</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToOT Control System 1</name>
+        <order>250</order>
+        <source_sys_rte_eb_entity display_value="temp">a562a0cc1b29b05023faeb13604bcb31</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:36</sys_created_on>
+        <sys_id>7c72e4cc1b29b05023faeb13604bcbe0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tempToOT Control System 1</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_7c72e4cc1b29b05023faeb13604bcbe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 14:45:35</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="OT Control System 1">df6224cc1b29b05023faeb13604bcb9c</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>
