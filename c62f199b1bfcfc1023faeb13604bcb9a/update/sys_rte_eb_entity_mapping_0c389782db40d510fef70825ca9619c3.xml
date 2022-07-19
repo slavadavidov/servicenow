@@ -5,22 +5,22 @@
         <entity_mapping_group/>
         <ignore>false</ignore>
         <is_conditional>false</is_conditional>
-        <name>TempTocmdb_ci_hardware_1.cmdb_ci_network_adapter_1[*].cmdb_rel_ci_1618953927914_0</name>
-        <order>370</order>
-        <source_sys_rte_eb_entity display_value="temp.mac_address[*]">7e6224cc1b29b05023faeb13604bcb0f</source_sys_rte_eb_entity>
+        <name>TempTocmdb_ci_nids_1.cmdb_rel_ci_1655210796659_0</name>
+        <order>350</order>
+        <source_sys_rte_eb_entity display_value="temp">a562a0cc1b29b05023faeb13604bcb31</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-19 15:36:35</sys_created_on>
-        <sys_id>e472e4cc1b29b05023faeb13604bcb31</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>TempTocmdb_ci_hardware_1.cmdb_ci_network_adapter_1[*].cmdb_rel_ci_1618953927914_0</sys_name>
+        <sys_created_by>slava</sys_created_by>
+        <sys_created_on>2022-06-14 12:46:36</sys_created_on>
+        <sys_id>0c389782db40d510fef70825ca9619c3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>TempTocmdb_ci_nids_1.cmdb_rel_ci_1655210796659_0</sys_name>
         <sys_package display_value="Radiflow SGC" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
         <sys_scope display_value="Radiflow SGC">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_rte_eb_entity_mapping_e472e4cc1b29b05023faeb13604bcb31</sys_update_name>
+        <sys_update_name>sys_rte_eb_entity_mapping_0c389782db40d510fef70825ca9619c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-17 10:18:40</sys_updated_on>
-        <target_sys_rte_eb_entity display_value="cmdb_ci_hardware_1.cmdb_ci_network_adapt">2f6224cc1b29b05023faeb13604bcbd0</target_sys_rte_eb_entity>
+        <sys_updated_on>2022-07-17 10:05:52</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="cmdb_ci_nids_1.cmdb_rel_ci_1655210796659">f7289782db40d510fef70825ca9619be</target_sys_rte_eb_entity>
     </sys_rte_eb_entity_mapping>
 </record_update>
