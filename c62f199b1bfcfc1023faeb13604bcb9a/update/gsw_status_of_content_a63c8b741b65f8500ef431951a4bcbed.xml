@@ -7,7 +7,7 @@
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2021-07-22 14:53:49">6e3c8b741b65f8500ef431951a4bcbec</related_log_entry>
+        <related_log_entry display_value="2021-07-22 04:53:49">6e3c8b741b65f8500ef431951a4bcbec</related_log_entry>
         <status>0</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -15,9 +15,9 @@
         <sys_id>a63c8b741b65f8500ef431951a4bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>0</sys_name>
-        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>gsw_status_of_content_a63c8b741b65f8500ef431951a4bcbed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-22 11:53:49</sys_updated_on>

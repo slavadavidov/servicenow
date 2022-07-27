@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>slava</sys_created_by>
+        <sys_created_on>2022-06-14 11:31:47</sys_created_on>
+        <sys_id>cc170782db00d510fef70825ca961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Radiflow SGC" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="tempToOT Control System 1">7c72e4cc1b29b05023faeb13604bcbe0</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Radiflow SGC">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_cc170782db00d510fef70825ca961931</sys_update_name>
+        <sys_updated_by>slava</sys_updated_by>
+        <sys_updated_on>2022-06-14 11:31:47</sys_updated_on>
+        <target_sys_rte_eb_field/>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_rte_eb_field_mapping_cc170782db00d510fef70825ca961931</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>100</order><referenced_sys_rte_eb_entity/><source_sys_rte_eb_field/><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>slava</sys_created_by><sys_created_on>2022-06-14 11:31:47</sys_created_on><sys_id>cc170782db00d510fef70825ca961931</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Radiflow SGC" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG - Radiflow OT Assets Discovery">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="tempToOT Control System 1">7c72e4cc1b29b05023faeb13604bcbe0</sys_rte_eb_entity_mapping><sys_scope display_value="Radiflow SGC">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>sys_rte_eb_field_mapping_cc170782db00d510fef70825ca961931</sys_update_name><sys_updated_by>slava</sys_updated_by><sys_updated_on>2022-06-14 11:31:47</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>1892652399</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dcee0c9ddba89150fef70825ca96198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slava</sys_created_by>
+        <sys_created_on>2022-07-19 15:41:21</sys_created_on>
+        <sys_id>09df48a9dbfc5d50fef70825ca961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182171ef6d50000001</sys_recorded_at>
+        <sys_updated_by>slava</sys_updated_by>
+        <sys_updated_on>2022-07-19 15:41:21</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>45df48a9d0fc5d50bd3987aeb8cd5c99</update_guid>
+        <update_guid_history>45df48a9d0fc5d50bd3987aeb8cd5c99:0,ff9f00691bfc5d508727502964ea4593:0,0c1707820a00d5102586de7353d11632:852591889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slava</sys_created_by>
+        <sys_created_on>2022-07-19 15:41:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>278df92c7b35499288e1e707bae69041</sys_id>
+        <sys_metadata>cc170782db00d510fef70825ca961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_rte_eb_field_mapping_cc170782db00d510fef70825ca961931</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_cc170782db00d510fef70825ca961931">09df48a9dbfc5d50fef70825ca961999</sys_update_version>
+        <sys_updated_by>slava</sys_updated_by>
+        <sys_updated_on>2022-07-19 15:41:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

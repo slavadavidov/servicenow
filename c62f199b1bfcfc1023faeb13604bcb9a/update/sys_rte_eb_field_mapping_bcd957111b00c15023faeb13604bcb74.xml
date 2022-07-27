@@ -9,11 +9,11 @@
         <sys_id>bcd957111b00c15023faeb13604bcb74</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
-        <sys_rte_eb_definition display_value="SG-OT Asset JSON Import">6ad39a70872320104b5c732d36cb0b7f</sys_rte_eb_definition>
-        <sys_rte_eb_entity_mapping display_value="impTotemp">3ce3deb0872320104b5c732d36cb0b22</sys_rte_eb_entity_mapping>
-        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_rte_eb_definition display_value="">6ad39a70872320104b5c732d36cb0b7f</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="">3ce3deb0872320104b5c732d36cb0b22</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_bcd957111b00c15023faeb13604bcb74</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 08:56:23</sys_updated_on>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2021-08-01 08:20:37</change_date>
-        <changed_by display_value="Slava Davidov">a97395f31b72a81023faeb13604bcb4f</changed_by>
+        <changed_by display_value="">a97395f31b72a81023faeb13604bcb4f</changed_by>
         <content display_value="Service Graph Connector for Jamf">f73c82470fcd00107e47409dc4767e5b</content>
         <related_change_log_entry/>
         <related_task_entry/>
@@ -11,9 +11,9 @@
         <sys_id>cd5bf1801b7534100ef431951a4bcb77</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>2021-08-01 08:20:37</sys_name>
-        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>gsw_change_log_cd5bf1801b7534100ef431951a4bcb77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-01 08:20:37</sys_updated_on>

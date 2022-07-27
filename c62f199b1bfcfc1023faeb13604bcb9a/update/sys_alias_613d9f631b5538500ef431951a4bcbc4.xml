@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
     <sys_alias action="INSERT_OR_UPDATE">
-        <configuration_template display_value="Basic Auth Demo Configuration">cbdcec63b70333008321e916de11a96c</configuration_template>
+        <configuration_template display_value="">cbdcec63b70333008321e916de11a96c</configuration_template>
         <connection_type>http_connection</connection_type>
         <id>x_radif_sgc.CMDB_RADIFLOW_Conn_Cred_Alias</id>
         <multiple_connections>false</multiple_connections>
@@ -13,9 +13,9 @@
         <sys_id>613d9f631b5538500ef431951a4bcbc4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_radif_sgc.CMDB_RADIFLOW_Conn_Cred_Alias</sys_name>
-        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_alias_613d9f631b5538500ef431951a4bcbc4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-18 15:58:49</sys_updated_on>

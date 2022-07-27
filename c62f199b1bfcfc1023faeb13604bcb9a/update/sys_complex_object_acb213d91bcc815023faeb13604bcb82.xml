@@ -14,9 +14,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDe8b213d96fcc8150e76083c645131482</sys_name>
         <sys_overrides/>
-        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_complex_object_acb213d91bcc815023faeb13604bcb82</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-25 08:16:01</sys_updated_on>
