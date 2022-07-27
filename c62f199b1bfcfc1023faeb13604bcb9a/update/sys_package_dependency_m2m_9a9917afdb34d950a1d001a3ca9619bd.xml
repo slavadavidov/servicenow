@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="ITOM Discovery License" source="com.snc.itom.discovery.license">2786c76edb518150fef70825ca9619fa</dependency>
+        <min_version/>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-07-26 11:30:45</sys_created_on>
+        <sys_id>9a9917afdb34d950a1d001a3ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-07-26 11:30:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
