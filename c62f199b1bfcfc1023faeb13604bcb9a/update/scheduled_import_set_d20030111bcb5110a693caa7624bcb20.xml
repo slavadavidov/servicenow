@@ -39,7 +39,7 @@
         <run_period/>
         <run_start>2022-11-07 19:44:52</run_start>
         <run_time>1970-01-01 09:00:00</run_time>
-        <run_type>daily</run_type>
+        <run_type>once</run_type>
         <show_connection_override>false</show_connection_override>
         <synchronize_inserts>true</synchronize_inserts>
         <sys_class_name>scheduled_import_set</sys_class_name>
