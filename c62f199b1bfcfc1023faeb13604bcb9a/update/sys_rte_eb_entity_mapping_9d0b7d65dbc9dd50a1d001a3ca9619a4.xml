@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>impTotemp.module[*].memory[*]</name>
+        <order>180</order>
+        <source_sys_rte_eb_entity display_value="Import">490b3d65dbc9dd50a1d001a3ca961964</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-08-01 09:45:22</sys_created_on>
+        <sys_id>9d0b7d65dbc9dd50a1d001a3ca9619a4</sys_id>
+        <sys_name>impTotemp.module[*].memory[*]</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">196a7d25dbc9dd50a1d001a3ca96197f</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_9d0b7d65dbc9dd50a1d001a3ca9619a4</sys_update_name>
+        <target_sys_rte_eb_entity display_value="temp.module[*].memory[*]">910b7d65dbc9dd50a1d001a3ca9619a3</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

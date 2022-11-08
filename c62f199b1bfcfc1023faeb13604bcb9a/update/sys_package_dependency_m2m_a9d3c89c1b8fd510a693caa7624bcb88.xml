@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="CMDB CI Class Models" source="sn_cmdb_ci_class">ae99d84b2320330006c0110d96bf65b3</dependency>
+        <min_version>1.41.0</min_version>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-04 13:58:12</sys_created_on>
+        <sys_id>a9d3c89c1b8fd510a693caa7624bcb88</sys_id>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>

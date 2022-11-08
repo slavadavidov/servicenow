@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="643fef631bf29510a693caa7624bcbbe" extends="sys_import_set_row" label="SG - Radiflow OT-Data Source connections" max_length="40" name="x_radif_sgc_radiflow_connections" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=active" label="active" max_length="40" name="u_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dst_device_id" label="dst_device_id" max_length="40" name="u_dst_device_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=linkid" label="linkid" max_length="40" name="u_linkid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=port" label="port" max_length="40" name="u_port" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=src_device_id" label="src_device_id" max_length="40" name="u_src_device_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=transport" label="transport" max_length="40" name="u_transport" type="string"/>
+    </element>
+</database>

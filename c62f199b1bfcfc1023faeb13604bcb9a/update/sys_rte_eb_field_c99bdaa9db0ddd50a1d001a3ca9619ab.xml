@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>model_number</field>
+        <name>model_number</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-08-01 12:07:37</sys_created_on>
+        <sys_id>c99bdaa9db0ddd50a1d001a3ca9619ab</sys_id>
+        <sys_name>model_number</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">196a7d25dbc9dd50a1d001a3ca96197f</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="OT Supervisory System 1">817b96a9db0ddd50a1d001a3ca9619bd</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_c99bdaa9db0ddd50a1d001a3ca9619ab</sys_update_name>
+    </sys_rte_eb_field>
+</record_update>

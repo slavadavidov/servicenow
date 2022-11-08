@@ -9,35 +9,49 @@
         <name>SGRadiflowOTAssetJSONTransformUtil</name>
         <script><![CDATA[var SGRadiflowOTAssetJSONTransformUtil = Class.create();
 SGRadiflowOTAssetJSONTransformUtil.prototype = Object.extendsObject(sn_cmdb_ci_class.SGOTAssetTransformUtil, {
-    initialize: function() {
+    initialize: function() {},
+    getAssetCriticalityValue: function(criticality) {
+        if (gs.nil(criticality)) {
+            return "";
+        }
+        var receivedCriticality = criticality.trim().toLowerCase();
+        if (gs.nil(receivedCriticality)) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.NONE;
+        }
+        if (receivedCriticality.includes("1") || receivedCriticality.includes("1")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.MOST_CRITICAL;
+        } else if (receivedCriticality.includes("2") || receivedCriticality.includes("2")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.SOMEWHAT_CRITICAL;
+        } else if (receivedCriticality.includes("3") || receivedCriticality.includes("3")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.LESS_CRITICAL;
+        } else if (receivedCriticality.includes("4") || receivedCriticality.includes("4")) {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.NOT_CRITICAL;
+        } else {
+            return sn_cmdb_ci_class.SGOTAssetConstants.ASSET_CRITICALITY.NONE;
+        }
     },
-	
-	getAssetCMDBClassNameWithOtEntitySysId: function(type, osVersion, firmwareVersion){
-		try{
-			var sep = new GlideScriptedExtensionPoint().getExtensions("x_radif_sgc.SGRadiflowOTAssetImportExtensionPoint");
-			if(sep.length > 0){
-				return sep[0].getAssetCMDBSysClassNameWithOtEntityTypeSysId(type, osVersion, firmwareVersion);
-			}
-			return ":::";
-		}
-		catch(exp){
-			gs.info("error while getting extension point, exp: " + exp.getMessage());
-		}
-	},
-	
+    getAssetCMDBClassNameWithOtEntitySysId: function(type, osVersion, firmwareVersion) {
+        try {
+            var sep = new GlideScriptedExtensionPoint().getExtensions("x_radif_sgc.SGRadiflowOTAssetImportExtensionPoint");
+            if (sep.length > 0) {
+                return sep[0].getAssetCMDBSysClassNameWithOtEntityTypeSysId(type, osVersion, firmwareVersion);
+            }
+            return ":::";
+        } catch (exp) {
+            gs.info("error while getting extension point, exp: " + exp.getMessage());
+        }
+    },
+
     type: 'SGRadiflowOTAssetJSONTransformUtil'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-20 06:59:48</sys_created_on>
         <sys_id>051533c01b21f05023faeb13604bcba9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
         <sys_name>SGRadiflowOTAssetJSONTransformUtil</sys_name>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_script_include_051533c01b21f05023faeb13604bcba9</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-04 10:57:44</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -5,9 +5,6 @@
         <sys_created_by>liorg</sys_created_by>
         <sys_created_on>2022-07-26 11:30:45</sys_created_on>
         <sys_id>d29917afdb34d950a1d001a3ca9619be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
-        <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-07-26 11:30:45</sys_updated_on>
     </sys_package_dependency_m2m>
 </record_update>

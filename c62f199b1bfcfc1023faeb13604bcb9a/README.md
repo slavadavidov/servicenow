@@ -26,4 +26,5 @@ If you find yourself unable to import your repository due to the presence of fil
    Currently listed dependencies:
    * ITOM Licensing
    * ITOM Discovery License
+   * CMDB CI Class Models
    * System Import Sets

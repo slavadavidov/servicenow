@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_identifier">
+    <cmdb_identifier action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>cmdb_ci_ot_ied</applies_to>
+        <description/>
+        <independent>true</independent>
+        <name>IED rule for radiflow</name>
+        <sys_class_name>cmdb_identifier</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-09-06 09:30:18</sys_created_on>
+        <sys_id>a3c0d389dbf1d9d0a1d001a3ca96197d</sys_id>
+        <sys_name>cmdb_ci_ot_ied</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_identifier_a3c0d389dbf1d9d0a1d001a3ca96197d</sys_update_name>
+    </cmdb_identifier>
+</record_update>

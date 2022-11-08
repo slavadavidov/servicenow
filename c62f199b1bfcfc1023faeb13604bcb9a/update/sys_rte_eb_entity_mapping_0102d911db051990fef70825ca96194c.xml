@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>temp.mac_address[*]ToNetwork Adapter 3</name>
+        <order>320</order>
+        <source_sys_rte_eb_entity display_value="">7e6224cc1b29b05023faeb13604bcb0f</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 12:07:45</sys_created_on>
+        <sys_id>0102d911db051990fef70825ca96194c</sys_id>
+        <sys_name>temp.mac_address[*]ToNetwork Adapter 3</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_0102d911db051990fef70825ca96194c</sys_update_name>
+        <target_sys_rte_eb_entity display_value="Network Adapter 3">85029911db051990fef70825ca96199b</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

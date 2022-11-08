@@ -2,6 +2,7 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template>DATASTREAM</action_template>
         <active>true</active>
         <annotation/>
@@ -12,12 +13,13 @@
         <description>Imports the SG-OT Data Sample using the ServiceNow Attachment API</description>
         <ih_action>true</ih_action>
         <internal_name>sgradiflow</internal_name>
-        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":""},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>91a6434c1b1130500ef431951a4bcbb5</master_snapshot>
         <name>SG-Radiflow</name>
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -25,15 +27,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1550e5db1bfcfc1023faeb13604bcb59</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>SG-Radiflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_1550e5db1bfcfc1023faeb13604bcb59</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-19 16:07:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -61,9 +60,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:13</sys_created_on>
         <sys_id>1a5029db1bfcfc1023faeb13604bcb3f</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:36</sys_updated_on>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":{"$cv":{"$c":"java.lang.String","$v":""}},"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":{"$cv":{"$c":"java.lang.String","$v":""}},"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7550e5dbe9fcfc10dba035e247269ec4\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Asset">7150e5db1bfcfc1023faeb13604bcbc7</variable>
     </sys_variable_value>
@@ -234,6 +233,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>5893a978-afdd-4a8b-a2d5-ec3b6ad14abf</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -246,10 +246,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:29:59</sys_created_on>
         <sys_id>13f0ec901b7bb41023faeb13604bcbde</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:35</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 07:38:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=13f0ec901b7bb41023faeb13604bcbde"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -311,15 +311,57 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>13f0ec901b7bb41023faeb13604bcbde</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>82642d1cdb365510a1d001a3ca961964</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-24 16:00:57</sys_updated_on>
+        <value>third-party-integrations/servicenow-ot-cmdb/api/devices</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>13f0ec901b7bb41023faeb13604bcbde</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>86642d1cdb365510a1d001a3ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>13f0ec901b7bb41023faeb13604bcbde</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>8e642d1cdb365510a1d001a3ca961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>13f0ec901b7bb41023faeb13604bcbde</document_key>
         <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:35</sys_created_on>
         <sys_id>9cf6a4711b0c05500ef431951a4bcb8c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:35</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 05:35:26</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api_key","value":"f269f-8c554c54957f4c1f06cce62f"}]}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -330,11 +372,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>aff020d01b7bb41023faeb13604bcb20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 06:30:00</sys_updated_on>
-        <value>https://172.18.212.114/servicenow/get_devices</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 07:38:56</sys_updated_on>
+        <value>https://3.72.45.4/isid/</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>13f0ec901b7bb41023faeb13604bcbde</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>ce642d1cdb365510a1d001a3ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -364,12 +420,15 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_13f0ec901b7bb41023faeb13604bcbde^id=13f0ec901b7bb41023faeb13604bcbde"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=13f0ec901b7bb41023faeb13604bcbde"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=13f0ec901b7bb41023faeb13604bcbde"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=13f0ec901b7bb41023faeb13604bcbde^sys_idNOT IN57f0ec901b7bb41023faeb13604bcbf6"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e059017e-b7fe-47a7-a08c-0864f4d5d9de</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,is_legacy_password2=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e059017e-b7fe-47a7-a08c-0864f4d5d9de</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -396,6 +455,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -409,7 +469,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_13f0ec901b7bb41023faeb13604bcbde</name>
         <next_element/>
-        <order>7</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -427,14 +487,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:29:59</sys_created_on>
         <sys_id>57f0ec901b7bb41023faeb13604bcbf6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-23 09:33:03</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -442,13 +502,40 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13f0ec901b7bb41023faeb13604bcbde"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_13f0ec901b7bb41023faeb13604bcbde^sys_idNOT IN8a642d1cdb365510a1d001a3ca96195a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_13f0ec901b7bb41023faeb13604bcbde</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:03</sys_created_on>
+        <sys_id>8a642d1cdb365510a1d001a3ca96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>30a6b41e-5af5-4c53-966a-2f55ae836299</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -495,9 +582,15 @@
         <value>rest_step</value>
         <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=1950e5db1bfcfc1023faeb13604bcb90"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1950e5db1bfcfc1023faeb13604bcb90"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1950e5db1bfcfc1023faeb13604bcb90"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1950e5db1bfcfc1023faeb13604bcb90"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1950e5db1bfcfc1023faeb13604bcb90"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>c00012a1-470e-4fe5-a03c-06d615a0301c</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -511,10 +604,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>27f020d01b7bb41023faeb13604bcb2c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 06:30:00</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27f020d01b7bb41023faeb13604bcb2c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -539,9 +632,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>e3f020d01b7bb41023faeb13604bcb32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 06:30:00</sys_updated_on>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:01</sys_updated_on>
         <value>$</value>
         <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
@@ -552,9 +645,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>aff020d01b7bb41023faeb13604bcb31</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 06:30:00</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-11-02 11:02:21</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
         <value/>
     </sys_element_mapping>
@@ -582,9 +675,27 @@
         <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
         <value>{{step[5893a978-afdd-4a8b-a2d5-ec3b6ad14abf].response_stream}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=27f020d01b7bb41023faeb13604bcb2c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=27f020d01b7bb41023faeb13604bcb2c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27f020d01b7bb41023faeb13604bcb2c^sys_idNOT IN6778c12b1b7a5510a693caa7624bcb06"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>item_path</input_name>
+        <instance>27f020d01b7bb41023faeb13604bcb2c</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"item_path":{"scriptActive":false}}</script>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-11-02 11:02:21</sys_created_on>
+        <sys_id>6778c12b1b7a5510a693caa7624bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-11-02 11:02:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_27f020d01b7bb41023faeb13604bcb2c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>da880eff-8de5-4db2-8d44-717732449027</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -675,9 +786,14 @@
         <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
         <value>{{step[c00012a1-470e-4fe5-a03c-06d615a0301c].split_stream}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2bf020d01b7bb41023faeb13604bcb33"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2bf020d01b7bb41023faeb13604bcb33"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2bf020d01b7bb41023faeb13604bcb33"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2bf020d01b7bb41023faeb13604bcb33"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>712ba6b0-f47a-4d40-a0a6-0734bfd5099a</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -696,9 +812,15 @@
         <sys_updated_on>2021-06-22 15:40:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_dd50e5db1bfcfc1023faeb13604bcb8b"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>500fecf2-5336-4995-975a-60c7ffeecffe</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -745,88 +867,12 @@
         <value>script_parser</value>
         <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="delete_multiple" query="model=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT INd550e5db1bfcfc1023faeb13604bcb5e"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0159a4d7-9cb3-4e51-b380-066b05e39f88</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>attachment_id</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Attachment ID</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</model>
-        <model_id>1550e5db1bfcfc1023faeb13604bcb59</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-22 15:40:09</sys_created_on>
-        <sys_id>d550e5db1bfcfc1023faeb13604bcb5e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-14 13:32:55</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_hub_action_input action="delete_multiple" query="model=1550e5db1bfcfc1023faeb13604bcb59"/>
     <sys_hub_action_output action="delete_multiple" query="model=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN4a5029db1bfcfc1023faeb13604bcb07,7150e5db1bfcfc1023faeb13604bcbc7,7150e5db1bfcfc1023faeb13604bcbee,7550e5db1bfcfc1023faeb13604bcbe1,7950e5db1bfcfc1023faeb13604bcbd4,7d50e5db1bfcfc1023faeb13604bcbfa,c25029db1bfcfc1023faeb13604bcb01,ce5029db1bfcfc1023faeb13604bcb0d,f150e5db1bfcfc1023faeb13604bcbce,f550e5db1bfcfc1023faeb13604bcbf4,f950e5db1bfcfc1023faeb13604bcbe7,fd50e5db1bfcfc1023faeb13604bcbda"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -860,6 +906,7 @@
         <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -892,14 +939,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>4a5029db1bfcfc1023faeb13604bcb07</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>219</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:36</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -907,10 +954,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4a5029db1bfcfc1023faeb13604bcb07"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4a5029db1bfcfc1023faeb13604bcb07"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -943,6 +993,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -990,10 +1041,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7150e5db1bfcfc1023faeb13604bcbc7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7150e5db1bfcfc1023faeb13604bcbc7"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1026,6 +1080,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1073,10 +1128,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7150e5db1bfcfc1023faeb13604bcbee"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7150e5db1bfcfc1023faeb13604bcbee"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1109,6 +1167,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1156,10 +1215,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7550e5db1bfcfc1023faeb13604bcbe1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7550e5db1bfcfc1023faeb13604bcbe1"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1192,6 +1254,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1239,10 +1302,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7950e5db1bfcfc1023faeb13604bcbd4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7950e5db1bfcfc1023faeb13604bcbd4"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1275,6 +1341,7 @@
         <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1307,14 +1374,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>7d50e5db1bfcfc1023faeb13604bcbfa</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>219</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:36</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1322,10 +1389,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d50e5db1bfcfc1023faeb13604bcbfa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d50e5db1bfcfc1023faeb13604bcbfa"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1358,6 +1428,7 @@
         <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1390,14 +1461,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>c25029db1bfcfc1023faeb13604bcb01</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>219</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:36</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1405,10 +1476,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c25029db1bfcfc1023faeb13604bcb01"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c25029db1bfcfc1023faeb13604bcb01"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1441,6 +1515,7 @@
         <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1473,14 +1548,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>ce5029db1bfcfc1023faeb13604bcb0d</sys_id>
-        <sys_mod_count>159</sys_mod_count>
+        <sys_mod_count>215</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:36</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1488,10 +1563,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ce5029db1bfcfc1023faeb13604bcb0d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce5029db1bfcfc1023faeb13604bcb0d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1524,6 +1602,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1571,10 +1650,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f150e5db1bfcfc1023faeb13604bcbce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f150e5db1bfcfc1023faeb13604bcbce"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1607,6 +1689,7 @@
         <element_prototype display_value="Response Headers" element="response_headers" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">09d4cb7347622200b4fad7527c9a71e3</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1639,14 +1722,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>f550e5db1bfcfc1023faeb13604bcbf4</sys_id>
-        <sys_mod_count>163</sys_mod_count>
+        <sys_mod_count>219</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:35</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1654,10 +1737,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f550e5db1bfcfc1023faeb13604bcbf4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f550e5db1bfcfc1023faeb13604bcbf4"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1690,6 +1776,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1737,10 +1824,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f950e5db1bfcfc1023faeb13604bcbe7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f950e5db1bfcfc1023faeb13604bcbe7"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1773,6 +1863,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1820,34 +1911,27 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN9950e5db1bfcfc1023faeb13604bcb89"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>attachment_id</element>
-        <help/>
-        <hint/>
-        <label>Attachment ID</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-22 15:40:09</sys_created_on>
-        <sys_id>9950e5db1bfcfc1023faeb13604bcb89</sys_id>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fd50e5db1bfcfc1023faeb13604bcbda"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd50e5db1bfcfc1023faeb13604bcbda"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1550e5db1bfcfc1023faeb13604bcb59"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN96642d1cdb365510a1d001a3ca9619ac"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action_type_id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:05</sys_created_on>
+        <sys_id>96642d1cdb365510a1d001a3ca9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Attachment ID</sys_name>
-        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59_attachment_id_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-22 15:40:09</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:05</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=96642d1cdb365510a1d001a3ca9619ac"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1550e5db1bfcfc1023faeb13604bcb59"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN0a5029db1bfcfc1023faeb13604bcb0c,0e50e5db1bfcfc1023faeb13604bcbff,3150e5db1bfcfc1023faeb13604bcbf3,3550e5db1bfcfc1023faeb13604bcbe6,3950e5db1bfcfc1023faeb13604bcbd9,3d50e5db1bfcfc1023faeb13604bcbcc,825029db1bfcfc1023faeb13604bcb06,8e5029db1bfcfc1023faeb13604bcb12,b150e5db1bfcfc1023faeb13604bcbd3,b550e5db1bfcfc1023faeb13604bcbf9,b950e5db1bfcfc1023faeb13604bcbec,bd50e5db1bfcfc1023faeb13604bcbdf"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>error_code</element>
@@ -1862,11 +1946,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>0a5029db1bfcfc1023faeb13604bcb0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -1885,11 +1969,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>0e50e5db1bfcfc1023faeb13604bcbff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -1908,11 +1992,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>3150e5db1bfcfc1023faeb13604bcbf3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_ds_output_page_variables_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -1931,11 +2015,11 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>3550e5db1bfcfc1023faeb13604bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_ds_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
@@ -1954,11 +2038,11 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>3950e5db1bfcfc1023faeb13604bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_page_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
@@ -1977,11 +2061,11 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>3d50e5db1bfcfc1023faeb13604bcbcc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Asset</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_asset_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
@@ -2000,11 +2084,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>825029db1bfcfc1023faeb13604bcb06</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -2023,11 +2107,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>8e5029db1bfcfc1023faeb13604bcb12</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_ds_parsed_stream_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -2046,11 +2130,11 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>b150e5db1bfcfc1023faeb13604bcbd3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_item_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
@@ -2069,11 +2153,11 @@
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>b550e5db1bfcfc1023faeb13604bcbf9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_response_headers_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:12</sys_updated_on>
         <url/>
@@ -2092,11 +2176,11 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>b950e5db1bfcfc1023faeb13604bcbec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
@@ -2115,35 +2199,37 @@
         <sys_created_on>2021-06-22 15:40:11</sys_created_on>
         <sys_id>bd50e5db1bfcfc1023faeb13604bcbdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-22 15:40:11</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN4ba6c34c1b1130500ef431951a4bcb3e"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action_id>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4ba6c34c1b1130500ef431951a4bcb3e","name":"plan"}}</plan>
-        <snapshot>9c2690e1db309d50fef70825ca961930</snapshot>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4ba6c34c1b1130500ef431951a4bcb3e","name":"plan","plan_signature":null}}</plan>
+        <snapshot>f5c3fb9ddb839110a1d001a3ca961919</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ba6c34c1b1130500ef431951a4bcb3e</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:44</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:25</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template>DATASTREAM</action_template>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
@@ -2152,7 +2238,7 @@
         <copied_from_name/>
         <description>Imports the SG-OT Data Sample using the ServiceNow Attachment API</description>
         <internal_name>sgradiflow</internal_name>
-        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":""},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":""},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":""},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>SG-Radiflow</name>
         <natlang/>
@@ -2165,15 +2251,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91a6434c1b1130500ef431951a4bcbb5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 10:22:41</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2229,9 +2315,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>8aa6834c1b1130500ef431951a4bcb70</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:41</sys_updated_on>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 14:35:42</sys_updated_on>
         <value>{"version":"1.0","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":{"$cv":{"$c":"java.lang.String","$v":""}},"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":{"$cv":{"$c":"java.lang.String","$v":""}},"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa1a6434caa113050aaeb7291955b80ec\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Asset">e5a6434c1b1130500ef431951a4bcbee</variable>
     </sys_variable_value>
@@ -2374,6 +2460,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>5893a978-afdd-4a8b-a2d5-ec3b6ad14abf</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2386,10 +2473,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:38</sys_created_on>
         <sys_id>89f6e4711b0c05500ef431951a4bcb88</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 14:46:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=89f6e4711b0c05500ef431951a4bcb88"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2423,6 +2510,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>89f6e4711b0c05500ef431951a4bcb88</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>3574ed1cdb365510a1d001a3ca96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89f6e4711b0c05500ef431951a4bcb88</document_key>
         <order>25</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -2442,11 +2543,39 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>59f6e4711b0c05500ef431951a4bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 05:35:41</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api_key","value":"f269f-8c554c54957f4c1f06cce62f"}]}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89f6e4711b0c05500ef431951a4bcb88</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>7174ed1cdb365510a1d001a3ca96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89f6e4711b0c05500ef431951a4bcb88</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>7d74ed1cdb365510a1d001a3ca96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2498,18 +2627,35 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>ddf6e4711b0c05500ef431951a4bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
-        <value>https://172.18.212.114/servicenow/get_devices</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-01 14:46:53</sys_updated_on>
+        <value>https://3.72.45.4/isid/</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>89f6e4711b0c05500ef431951a4bcb88</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>f574ed1cdb365510a1d001a3ca96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <value>third-party-integrations/servicenow-ot-cmdb/api/devices</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_89f6e4711b0c05500ef431951a4bcb88^id=89f6e4711b0c05500ef431951a4bcb88"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=89f6e4711b0c05500ef431951a4bcb88"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=89f6e4711b0c05500ef431951a4bcb88"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=89f6e4711b0c05500ef431951a4bcb88^sys_idNOT IN49f6e4711b0c05500ef431951a4bcb8f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e059017e-b7fe-47a7-a08c-0864f4d5d9de</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,is_legacy_password2=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e059017e-b7fe-47a7-a08c-0864f4d5d9de</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2536,6 +2682,7 @@
         <element>sn_auth_token</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2549,7 +2696,7 @@
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_89f6e4711b0c05500ef431951a4bcb88</name>
         <next_element/>
-        <order>7</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2567,14 +2714,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:38</sys_created_on>
         <sys_id>49f6e4711b0c05500ef431951a4bcb8f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:38</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2582,13 +2729,40 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=89f6e4711b0c05500ef431951a4bcb88"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_89f6e4711b0c05500ef431951a4bcb88^sys_idNOT IN7974ed1cdb365510a1d001a3ca961902"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_89f6e4711b0c05500ef431951a4bcb88</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>7974ed1cdb365510a1d001a3ca961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>712ba6b0-f47a-4d40-a0a6-0734bfd5099a</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2607,9 +2781,15 @@
         <sys_updated_on>2021-07-07 17:18:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d5a6434c1b1130500ef431951a4bcbbf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>500fecf2-5336-4995-975a-60c7ffeecffe</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2656,9 +2836,15 @@
         <value>json_splitter</value>
         <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_1f1b8bafcbfa2300a2fcb895634c9c33^id=d5f6e4711b0c05500ef431951a4bcba2"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d5f6e4711b0c05500ef431951a4bcba2"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d5f6e4711b0c05500ef431951a4bcba2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5f6e4711b0c05500ef431951a4bcba2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d5f6e4711b0c05500ef431951a4bcba2"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>c00012a1-470e-4fe5-a03c-06d615a0301c</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2672,10 +2858,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>d5f6e4711b0c05500ef431951a4bcba8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5f6e4711b0c05500ef431951a4bcba8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2686,9 +2872,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>99f6e4711b0c05500ef431951a4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:21</sys_updated_on>
         <value>$</value>
         <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
@@ -2743,9 +2929,27 @@
         <table>var__m_sys_flow_step_definition_input_f4fe7504e713230007a64caac2f6a9d0</table>
         <value>{{step[5893a978-afdd-4a8b-a2d5-ec3b6ad14abf].response_stream}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d5f6e4711b0c05500ef431951a4bcba8"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d5f6e4711b0c05500ef431951a4bcba8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5f6e4711b0c05500ef431951a4bcba8^sys_idNOT IN28593d671b3e5510a693caa7624bcb2d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>item_path</input_name>
+        <instance>d5f6e4711b0c05500ef431951a4bcba8</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"item_path":{"scriptActive":false}}</script>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-02 14:35:41</sys_created_on>
+        <sys_id>28593d671b3e5510a693caa7624bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 14:35:41</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d5f6e4711b0c05500ef431951a4bcba8"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>da880eff-8de5-4db2-8d44-717732449027</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2836,9 +3040,14 @@
         <table>var__m_sys_flow_step_definition_input_e83b26f68723230057a8ed4d87cb0b24</table>
         <value>{{step[c00012a1-470e-4fe5-a03c-06d615a0301c].split_stream}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ddf6e4711b0c05500ef431951a4bcbae"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ddf6e4711b0c05500ef431951a4bcbae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ddf6e4711b0c05500ef431951a4bcbae"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ddf6e4711b0c05500ef431951a4bcbae"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>30a6b41e-5af5-4c53-966a-2f55ae836299</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2885,88 +3094,12 @@
         <value>rest_step</value>
         <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="delete_multiple" query="model=91a6434c1b1130500ef431951a4bcbb5^sys_idNOT IN1da6434c1b1130500ef431951a4bcbb7"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0159a4d7-9cb3-4e51-b380-066b05e39f88</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>attachment_id</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Attachment ID</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</model>
-        <model_id>91a6434c1b1130500ef431951a4bcbb5</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-07 17:18:18</sys_created_on>
-        <sys_id>1da6434c1b1130500ef431951a4bcbb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-07 17:18:18</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_21ba87afcbfa2300a2fcb895634c9c3d^id=e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_action_input action="delete_multiple" query="model=91a6434c1b1130500ef431951a4bcbb5"/>
     <sys_hub_action_output action="delete_multiple" query="model=91a6434c1b1130500ef431951a4bcbb5^sys_idNOT INb1a6834c1b1130500ef431951a4bcb40,e5a6434c1b1130500ef431951a4bcbee,f1a6434c1b1130500ef431951a4bcbf5,f1a6834c1b1130500ef431951a4bcb0e,f1a6834c1b1130500ef431951a4bcb27,f5a6434c1b1130500ef431951a4bcbfb,f5a6834c1b1130500ef431951a4bcb14,f5a6834c1b1130500ef431951a4bcb2d,f9a6834c1b1130500ef431951a4bcb01,f9a6834c1b1130500ef431951a4bcb1a,fda6834c1b1130500ef431951a4bcb07,fda6834c1b1130500ef431951a4bcb20"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3000,6 +3133,7 @@
         <element_prototype display_value="Parsed Stream" element="parsed_stream" name="var__m_sys_flow_step_definition_output_e83b26f68723230057a8ed4d87cb0b24">b26ca2ba8763230057a8ed4d87cb0b5b</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3032,14 +3166,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>b1a6834c1b1130500ef431951a4bcb40</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:40</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3047,10 +3181,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b1a6834c1b1130500ef431951a4bcb40"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1a6834c1b1130500ef431951a4bcb40"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3083,6 +3220,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3130,10 +3268,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e5a6434c1b1130500ef431951a4bcbee"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e5a6434c1b1130500ef431951a4bcbee"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3166,6 +3307,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3213,10 +3355,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1a6434c1b1130500ef431951a4bcbf5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1a6434c1b1130500ef431951a4bcbf5"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3249,6 +3394,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3296,10 +3442,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1a6834c1b1130500ef431951a4bcb0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1a6834c1b1130500ef431951a4bcb0e"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3332,6 +3481,7 @@
         <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3364,14 +3514,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f1a6834c1b1130500ef431951a4bcb27</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:40</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3379,10 +3529,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1a6834c1b1130500ef431951a4bcb27"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1a6834c1b1130500ef431951a4bcb27"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3415,6 +3568,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3462,10 +3616,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f5a6434c1b1130500ef431951a4bcbfb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a6434c1b1130500ef431951a4bcbfb"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3498,6 +3655,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3545,10 +3703,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f5a6834c1b1130500ef431951a4bcb14"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a6834c1b1130500ef431951a4bcb14"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3581,6 +3742,7 @@
         <element_prototype display_value="Error Code" element="error_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">d1744b7347622200b4fad7527c9a7105</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3613,14 +3775,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f5a6834c1b1130500ef431951a4bcb2d</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:40</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3628,10 +3790,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f5a6834c1b1130500ef431951a4bcb2d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a6834c1b1130500ef431951a4bcb2d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3664,6 +3829,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3711,10 +3877,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f9a6834c1b1130500ef431951a4bcb01"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f9a6834c1b1130500ef431951a4bcb01"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3747,6 +3916,7 @@
         <element_prototype display_value="Response Headers" element="response_headers" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">09d4cb7347622200b4fad7527c9a71e3</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3779,14 +3949,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f9a6834c1b1130500ef431951a4bcb1a</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:40</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3794,10 +3964,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f9a6834c1b1130500ef431951a4bcb1a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f9a6834c1b1130500ef431951a4bcb1a"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3830,6 +4003,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3877,10 +4051,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fda6834c1b1130500ef431951a4bcb07"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fda6834c1b1130500ef431951a4bcb07"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3913,6 +4090,7 @@
         <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">26a48b7347622200b4fad7527c9a71c0</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3945,14 +4123,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>fda6834c1b1130500ef431951a4bcb20</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:40</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3960,34 +4138,27 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5^sys_idNOT IN91a6434c1b1130500ef431951a4bcbbd"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>attachment_id</element>
-        <help/>
-        <hint/>
-        <label>Attachment ID</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-07 17:18:19</sys_created_on>
-        <sys_id>91a6434c1b1130500ef431951a4bcbbd</sys_id>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fda6834c1b1130500ef431951a4bcb20"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fda6834c1b1130500ef431951a4bcb20"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=91a6434c1b1130500ef431951a4bcbb5"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=91a6434c1b1130500ef431951a4bcbb5^sys_idNOT INce74ed1cdb365510a1d001a3ca96194d"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action_type_id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:20</sys_created_on>
+        <sys_id>ce74ed1cdb365510a1d001a3ca96194d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Attachment ID</sys_name>
-        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5_attachment_id_en</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-07 17:18:19</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:20</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ce74ed1cdb365510a1d001a3ca96194d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_91a6434c1b1130500ef431951a4bcbb5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5^sys_idNOT IN31a6434c1b1130500ef431951a4bcbfa,31a6834c1b1130500ef431951a4bcb13,31a6834c1b1130500ef431951a4bcb2c,35a6834c1b1130500ef431951a4bcb00,35a6834c1b1130500ef431951a4bcb19,39a6834c1b1130500ef431951a4bcb06,39a6834c1b1130500ef431951a4bcb1f,3da6434c1b1130500ef431951a4bcbf3,3da6834c1b1130500ef431951a4bcb0c,3da6834c1b1130500ef431951a4bcb25,cea6834c1b1130500ef431951a4bcb44,f9a6834c1b1130500ef431951a4bcb3e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>item_count</element>
@@ -4002,11 +4173,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>31a6434c1b1130500ef431951a4bcbfa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_item_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4025,11 +4196,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>31a6834c1b1130500ef431951a4bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4048,11 +4219,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>31a6834c1b1130500ef431951a4bcb2c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4071,11 +4242,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>35a6834c1b1130500ef431951a4bcb00</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_page_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4094,11 +4265,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>35a6834c1b1130500ef431951a4bcb19</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_ds_output_page_variables_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4117,11 +4288,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>39a6834c1b1130500ef431951a4bcb06</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4140,11 +4311,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>39a6834c1b1130500ef431951a4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_response_headers_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4163,11 +4334,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>3da6434c1b1130500ef431951a4bcbf3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Asset</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_asset_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4186,11 +4357,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>3da6834c1b1130500ef431951a4bcb0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_ds_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4209,11 +4380,11 @@
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>3da6834c1b1130500ef431951a4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:20</sys_updated_on>
         <url/>
@@ -4232,11 +4403,11 @@
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>cea6834c1b1130500ef431951a4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_ds_parsed_stream_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:21</sys_updated_on>
         <url/>
@@ -4255,18 +4426,20 @@
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>f9a6834c1b1130500ef431951a4bcb3e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-07-07 17:18:21</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_type_definition action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5"/>
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>1550e5db1bfcfc1023faeb13604bcb59</sys_id>
         <latest_snapshot>91a6434c1b1130500ef431951a4bcbb5</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1a-09-29-2022_10-11-2022_1534.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

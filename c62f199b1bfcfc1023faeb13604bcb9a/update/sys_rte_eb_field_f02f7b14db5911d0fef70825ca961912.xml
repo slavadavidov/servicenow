@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>u_data</field>
+        <name>u_data</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-08-10 08:25:54</sys_created_on>
+        <sys_id>f02f7b14db5911d0fef70825ca961912</sys_id>
+        <sys_name>u_data</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG-JAMF Mobile Devices">0f8f037b773030100dfa1bfaae5a99a1</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp.network">c59f837b773030100dfa1bfaae5a9994</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_f02f7b14db5911d0fef70825ca961912</sys_update_name>
+    </sys_rte_eb_field>
+</record_update>

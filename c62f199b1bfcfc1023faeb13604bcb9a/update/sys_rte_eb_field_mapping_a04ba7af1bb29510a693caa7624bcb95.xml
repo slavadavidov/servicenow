@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="u_serial_number_1">8645af2b1bb29510a693caa7624bcb29</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-02 22:53:29</sys_created_on>
+        <sys_id>a04ba7af1bb29510a693caa7624bcb95</sys_id>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source Sensor">236263a71bb29510a693caa7624bcbdf</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="tempToSerial Number 1">5c4b67af1bb29510a693caa7624bcb66</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_a04ba7af1bb29510a693caa7624bcb95</sys_update_name>
+        <target_sys_rte_eb_field display_value="serial_number">e44ba7af1bb29510a693caa7624bcb93</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.u_type === 'IOT' || input.temp.u_type === 'Camera')) && !((input.temp.u_type === 'PLC')) && !((input.temp.u_type === 'Engineering Station')) && !((input.temp.u_type === 'IED')) && !((input.temp.u_type === 'HMI')) && !((input.temp.u_type === 'Server')) && !((input.temp.u_type === 'IDS'))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>u_type=IOT^ORu_type=Camera</encoded_query>
+        <entity_mapping_group>aff41122dbad1114fef70825ca961988</entity_mapping_group>
+        <ignore>false</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToIoT Device 2</name>
+        <order>700</order>
+        <source_sys_rte_eb_entity display_value="">c732d96edb6d1114fef70825ca961947</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-09-07 12:04:15</sys_created_on>
+        <sys_id>18adfca5db711dd0a1d001a3ca961978</sys_id>
+        <sys_name>tempToIoT Device 2</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">31d05d2edb6d1114fef70825ca9619b9</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_18adfca5db711dd0a1d001a3ca961978</sys_update_name>
+        <target_sys_rte_eb_entity display_value="">18adfca5db711dd0a1d001a3ca961974</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

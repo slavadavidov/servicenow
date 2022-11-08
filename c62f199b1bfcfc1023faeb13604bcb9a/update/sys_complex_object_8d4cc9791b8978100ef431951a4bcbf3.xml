@@ -11,15 +11,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8d4cc9791b8978100ef431951a4bcbf3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>FDc94cc979628978100f3cda4a649186f3</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_complex_object_8d4cc9791b8978100ef431951a4bcbf3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-30 08:37:18</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
 </record_update>

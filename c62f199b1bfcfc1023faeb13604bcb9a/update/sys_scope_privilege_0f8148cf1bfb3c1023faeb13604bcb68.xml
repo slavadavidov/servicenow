@@ -7,14 +7,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-17 17:15:54</sys_created_on>
         <sys_id>0f8148cf1bfb3c1023faeb13604bcb68</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb_ci_ot</sys_name>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_scope_privilege_0f8148cf1bfb3c1023faeb13604bcb68</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-17 17:15:54</sys_updated_on>
         <target_name>cmdb_ci_ot</target_name>
         <target_scope display_value="CMDB CI Class Models">ae99d84b2320330006c0110d96bf65b3</target_scope>
         <target_type>sys_db_object</target_type>

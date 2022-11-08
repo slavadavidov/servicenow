@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdcdbf6a385329510a2f67c8e35a3b2ac</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>c62f199b1bfcfc1023faeb13604bcb9a</scope_name>
+        <serialized_content>{"FlowDesigner:FDdcdbf6a385329510a2f67c8e35a3b2ac":{"src_device_id":"String","src_device_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"src_device_id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"dst_device_id":"String","dst_device_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"dst_device_id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"active\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}},"FlowDesigner:FDdcdbf6a385329510a2f67c8e35a3b2ac.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"data\",\"mandatory\":\"false\",\"child_name\":\"connection\",\"uiUniqueId\":\"965477fd-f7c5-46d6-aa5a-1f0e82b8646a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdcdbf6a385329510a2f67c8e35a3b2ac\",\"child_label\":\"connection\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"child_type\":\"object\",\"order\":\"12\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3d129237-9caf-45b9-a9c3-44c8dc9a460a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-02 19:26:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90dbf6a31b329510a693caa7624bcbad</sys_id>
+        <sys_name>FDdcdbf6a385329510a2f67c8e35a3b2ac</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_complex_object_90dbf6a31b329510a693caa7624bcbad</sys_update_name>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="correlation_id">9a0bfd65dbc9dd50a1d001a3ca961976</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-08-01 12:02:42</sys_created_on>
+        <sys_id>817a12a9db0ddd50a1d001a3ca9619c7</sys_id>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">196a7d25dbc9dd50a1d001a3ca96197f</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="tempToOperational Technology (OT) 1">b5e99669db0ddd50a1d001a3ca961984</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_817a12a9db0ddd50a1d001a3ca9619c7</sys_update_name>
+        <target_sys_rte_eb_field display_value="correlation_id">4d7a9e69db0ddd50a1d001a3ca96194a</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

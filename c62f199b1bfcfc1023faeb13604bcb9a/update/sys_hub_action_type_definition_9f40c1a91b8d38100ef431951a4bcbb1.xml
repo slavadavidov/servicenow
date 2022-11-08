@@ -2,11 +2,13 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>test mid server connection </description>
@@ -18,6 +20,7 @@
         <name>MID Server Test</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -25,18 +28,25 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f40c1a91b8d38100ef431951a4bcbb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>MID Server Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9f40c1a91b8d38100ef431951a4bcbb1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-29 13:06:32</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=9f40c1a91b8d38100ef431951a4bcbb1"/>
     <sys_variable_value action="delete_multiple" query="document_key=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_action_output action="delete_multiple" query="model=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9f40c1a91b8d38100ef431951a4bcbb1"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9f40c1a91b8d38100ef431951a4bcbb1"/>
 </record_update>

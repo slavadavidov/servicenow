@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="IP Address 5">889560991bb25110a693caa7624bcbca</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-04 12:24:46</sys_created_on>
+        <sys_id>da8e670c1b0fd510a693caa7624bcbd4</sys_id>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1667564686788_0">1a8e670c1b0fd510a693caa7624bcbd0</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_da8e670c1b0fd510a693caa7624bcbd4</sys_update_name>
+        <target_sys_rte_eb_field display_value="cmdb_rel_ci_1667564686788_0.child">5a8e670c1b0fd510a693caa7624bcbce</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

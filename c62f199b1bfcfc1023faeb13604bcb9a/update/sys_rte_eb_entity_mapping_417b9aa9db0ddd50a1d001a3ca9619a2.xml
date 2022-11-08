@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[(function() {
+    if (((input.temp.type === 'HMI'))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query>temp#type=HMI</encoded_query>
+        <entity_mapping_group>017b96a9db0ddd50a1d001a3ca9619bd</entity_mapping_group>
+        <ignore>true</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToOT Supervisory System 1</name>
+        <order>230</order>
+        <source_sys_rte_eb_entity display_value="temp">d50b3d65dbc9dd50a1d001a3ca961967</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-08-01 12:07:04</sys_created_on>
+        <sys_id>417b9aa9db0ddd50a1d001a3ca9619a2</sys_id>
+        <sys_name>tempToOT Supervisory System 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">196a7d25dbc9dd50a1d001a3ca96197f</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_417b9aa9db0ddd50a1d001a3ca9619a2</sys_update_name>
+        <target_sys_rte_eb_entity display_value="OT Supervisory System 1">817b96a9db0ddd50a1d001a3ca9619bd</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

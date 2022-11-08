@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="INSERT_OR_UPDATE">
+        <field>mac_address</field>
+        <name>mac_address</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 12:07:46</sys_created_on>
+        <sys_id>d102d911db051990fef70825ca9619bd</sys_id>
+        <sys_name>mac_address</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="">8c6220cc1b29b05023faeb13604bcb55</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Network Adapter 3">85029911db051990fef70825ca96199b</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_d102d911db051990fef70825ca9619bd</sys_update_name>
+    </sys_rte_eb_field>
+</record_update>
