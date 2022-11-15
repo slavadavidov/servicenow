@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity">
+    <cmdb_inst_entity action="DELETE">
+        <child_id_field/>
+        <lookup_for_entity/>
+        <name>Hardware 1</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>cmdb_ci_hardware_1</path>
+        <related_for_entity/>
+        <relationship_type/>
+        <sys_class_name>cmdb_inst_entity</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 08:04:32</sys_created_on>
+        <sys_id>faac9c511bb25110a693caa7624bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_inst_entity_faac9c511bb25110a693caa7624bcbb5</sys_update_name>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 08:04:32</sys_updated_on>
+        <table>cmdb_ci_hardware</table>
+    </cmdb_inst_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>cmdb_inst_entity_faac9c511bb25110a693caa7624bcbb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_entity"><cmdb_inst_entity action="INSERT_OR_UPDATE"><child_id_field/><lookup_for_entity/><name>Hardware 1</name><parent_entity/><parent_id_field/><path>cmdb_ci_hardware_1</path><related_for_entity/><relationship_type/><sys_class_name>cmdb_inst_entity</sys_class_name><sys_created_by>michaelm</sys_created_by><sys_created_on>2022-10-26 08:04:32</sys_created_on><sys_id>faac9c511bb25110a693caa7624bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware 1</sys_name><sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition><sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>cmdb_inst_entity_faac9c511bb25110a693caa7624bcbb5</sys_update_name><sys_updated_by>michaelm</sys_updated_by><sys_updated_on>2022-10-26 08:04:32</sys_updated_on><table>cmdb_ci_hardware</table></cmdb_inst_entity></record_update>]]></payload>
+        <payload_hash>-1649991999</payload_hash>
+        <record_name>Hardware 1</record_name>
+        <reverted_from/>
+        <source>d11bcdc3dbf85950a1d001a3ca9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 08:04:32</sys_created_on>
+        <sys_id>76ac9c511bb25110a693caa7624bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184135250540000001</sys_recorded_at>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 08:04:32</sys_updated_on>
+        <type>CMDB Integration Studio Entity</type>
+        <update_guid>7eac9c51d7b25110b0fb9fd8030bb6b6</update_guid>
+        <update_guid_history>7eac9c51d7b25110b0fb9fd8030bb6b6:-1649991999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware 1">68b92cb91b47d110a693caa7624bcba2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:07</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_entity">cmdb_inst_entity</sys_db_object>
+        <sys_id>ac493cf199d54bc4aeb7af7a37d3f519</sys_id>
+        <sys_metadata>faac9c511bb25110a693caa7624bcbb5</sys_metadata>
+        <sys_name>Hardware 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>cmdb_inst_entity_faac9c511bb25110a693caa7624bcbb5</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_entity_faac9c511bb25110a693caa7624bcbb5">76ac9c511bb25110a693caa7624bcbb7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

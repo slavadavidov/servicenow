@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[(function() {
+    if (!((input.temp.u_type === 'PLC')) && !((input.temp.u_type === 'IOT')) && !((input.temp.u_type === 'Printer')) && !((input.temp.u_type === 'Historian')) && !((input.temp.u_type === 'Router')) && !((input.temp.u_type === 'Engineering Station')) && !((input.temp.u_type === 'IED')) && !((input.temp.u_type === 'HMI')) && !((input.temp.u_type === 'Server')) && !((input.temp.u_type === 'IDS'))) {
+        return true;
+    }
+    return false;
+})();]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>74649c591b725110a693caa7624bcba6</entity_mapping_group>
+        <ignore>true</ignore>
+        <is_conditional>true</is_conditional>
+        <name>tempToOT Asset 1</name>
+        <order>1100</order>
+        <source_sys_rte_eb_entity display_value="temp">e4dc0011dbfe1110a1d001a3ca961941</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:08</sys_created_on>
+        <sys_id>a0b92cb91b47d110a693caa7624bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToOT Asset 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_a0b92cb91b47d110a693caa7624bcbc0</sys_update_name>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-09 08:34:08</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="OT Asset 1">e8b92cb91b47d110a693caa7624bcbbd</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_rte_eb_entity_mapping_a0b92cb91b47d110a693caa7624bcbc0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[(function() {
+    if (!((input.temp.u_type === 'PLC')) &amp;&amp; !((input.temp.u_type === 'IOT')) &amp;&amp; !((input.temp.u_type === 'Printer')) &amp;&amp; !((input.temp.u_type === 'Historian')) &amp;&amp; !((input.temp.u_type === 'Router')) &amp;&amp; !((input.temp.u_type === 'Engineering Station')) &amp;&amp; !((input.temp.u_type === 'IED')) &amp;&amp; !((input.temp.u_type === 'HMI')) &amp;&amp; !((input.temp.u_type === 'Server')) &amp;&amp; !((input.temp.u_type === 'IDS'))) {
+        return true;
+    }
+    return false;
+})();]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group&gt;74649c591b725110a693caa7624bcba6&lt;/entity_mapping_group&gt;&lt;ignore&gt;true&lt;/ignore&gt;&lt;is_conditional&gt;true&lt;/is_conditional&gt;&lt;name&gt;tempToOT Asset 1&lt;/name&gt;&lt;order&gt;1100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="temp"&gt;e4dc0011dbfe1110a1d001a3ca961941&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;liorg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-09 08:34:08&lt;/sys_created_on&gt;&lt;sys_id&gt;a0b92cb91b47d110a693caa7624bcbc0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;tempToOT Asset 1&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source"&gt;ebbcccdddbbe1110a1d001a3ca961959&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Service Graph Connector for Radiflow"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_a0b92cb91b47d110a693caa7624bcbc0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;liorg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-09 08:34:08&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="OT Asset 1"&gt;e8b92cb91b47d110a693caa7624bcbbd&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1628717998</payload_hash>
+        <record_name>tempToOT Asset 1</record_name>
+        <reverted_from/>
+        <source>d11bcdc3dbf85950a1d001a3ca9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:08</sys_created_on>
+        <sys_id>a4b92cb91b47d110a693caa7624bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845b8671090000001</sys_recorded_at>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-09 08:34:08</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>ecb92cb9e747d110b767e1297f1d42c1</update_guid>
+        <update_guid_history>ecb92cb9e747d110b767e1297f1d42c1:-1628717998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:36:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>9cbe9567c2374c6aaf495a4ba64582e4</sys_id>
+        <sys_metadata>a0b92cb91b47d110a693caa7624bcbc0</sys_metadata>
+        <sys_name>tempToOT Asset 1</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_a0b92cb91b47d110a693caa7624bcbc0</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_a0b92cb91b47d110a693caa7624bcbc0">a4b92cb91b47d110a693caa7624bcbc2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

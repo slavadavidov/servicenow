@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Asset criticality</name>
+        <operation_group/>
+        <order>1900</order>
+        <script><![CDATA[(function(batch, output) {
+   for (var i = 0; i < batch.length; i++) {
+      var input = batch[i].input; // Value of the input column.
+      if(input==5)
+      output[i] = 4;
+      else
+      output[i] = input;
+   }
+})(batch, output);
+]]></script>
+        <source_sys_rte_eb_field display_value="u_asset_criticality">a8dc0011dbfe1110a1d001a3ca9619aa</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-15 08:28:05</sys_created_on>
+        <sys_id>66d12fa7dbc355108c161fdc13961983</sys_id>
+        <sys_name>Asset criticality</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="temp">e4dc0011dbfe1110a1d001a3ca961941</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_66d12fa7dbc355108c161fdc13961983</sys_update_name>
+        <target_sys_rte_eb_field display_value="Asset_criticality">62d12fa7dbc355108c161fdc13961981</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>

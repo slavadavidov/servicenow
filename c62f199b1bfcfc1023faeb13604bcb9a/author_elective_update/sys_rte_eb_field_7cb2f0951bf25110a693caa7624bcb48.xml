@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field">
+    <sys_rte_eb_field action="DELETE">
+        <field>name</field>
+        <name>name</name>
+        <sys_class_name>sys_rte_eb_field</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 09:40:48</sys_created_on>
+        <sys_id>7cb2f0951bf25110a693caa7624bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Hardware 1">faac9c511bb25110a693caa7624bcbb5</sys_rte_eb_entity>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_7cb2f0951bf25110a693caa7624bcb48</sys_update_name>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 09:40:48</sys_updated_on>
+    </sys_rte_eb_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_rte_eb_field_7cb2f0951bf25110a693caa7624bcb48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field"><sys_rte_eb_field action="INSERT_OR_UPDATE"><field>name</field><name>name</name><sys_class_name>sys_rte_eb_field</sys_class_name><sys_created_by>michaelm</sys_created_by><sys_created_on>2022-10-26 09:40:48</sys_created_on><sys_id>7cb2f0951bf25110a693caa7624bcb48</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition><sys_rte_eb_entity display_value="Hardware 1">faac9c511bb25110a693caa7624bcbb5</sys_rte_eb_entity><sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>sys_rte_eb_field_7cb2f0951bf25110a693caa7624bcb48</sys_update_name><sys_updated_by>michaelm</sys_updated_by><sys_updated_on>2022-10-26 09:40:48</sys_updated_on></sys_rte_eb_field></record_update>]]></payload>
+        <payload_hash>1873534156</payload_hash>
+        <record_name>name</record_name>
+        <reverted_from/>
+        <source>d11bcdc3dbf85950a1d001a3ca9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 09:40:48</sys_created_on>
+        <sys_id>4db2f0951bf25110a693caa7624bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18413aa74360000001</sys_recorded_at>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 09:40:48</sys_updated_on>
+        <type>RTE Entity Field</type>
+        <update_guid>41b2f09585f251100fea7d633b0ecd4a</update_guid>
+        <update_guid_history>41b2f09585f251100fea7d633b0ecd4a:1873534156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field">sys_rte_eb_field</sys_db_object>
+        <sys_id>b7198740cb724dfe9712f3f3dcecb004</sys_id>
+        <sys_metadata>7cb2f0951bf25110a693caa7624bcb48</sys_metadata>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_7cb2f0951bf25110a693caa7624bcb48</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_7cb2f0951bf25110a693caa7624bcb48">4db2f0951bf25110a693caa7624bcbdf</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

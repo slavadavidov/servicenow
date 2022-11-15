@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>tempToNetwork Adapter 11</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="temp">e4dc0011dbfe1110a1d001a3ca961941</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 09:41:18</sys_created_on>
+        <sys_id>54d274951bf25110a693caa7624bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tempToNetwork Adapter 11</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_54d274951bf25110a693caa7624bcb5d</sys_update_name>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 09:41:18</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Network Adapter 11">d0d274951bf25110a693caa7624bcb5b</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_rte_eb_entity_mapping_54d274951bf25110a693caa7624bcb5d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/*  Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;tempToNetwork Adapter 11&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="temp"&gt;e4dc0011dbfe1110a1d001a3ca961941&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;michaelm&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-26 09:41:18&lt;/sys_created_on&gt;&lt;sys_id&gt;54d274951bf25110a693caa7624bcb5d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;tempToNetwork Adapter 11&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source"&gt;ebbcccdddbbe1110a1d001a3ca961959&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Service Graph Connector for Radiflow"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_54d274951bf25110a693caa7624bcb5d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;michaelm&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-26 09:41:18&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="Network Adapter 11"&gt;d0d274951bf25110a693caa7624bcb5b&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>566313760</payload_hash>
+        <record_name>tempToNetwork Adapter 11</record_name>
+        <reverted_from/>
+        <source>d11bcdc3dbf85950a1d001a3ca9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michaelm</sys_created_by>
+        <sys_created_on>2022-10-26 09:41:18</sys_created_on>
+        <sys_id>50d274951bf25110a693caa7624bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18413aae86e0000001</sys_recorded_at>
+        <sys_updated_by>michaelm</sys_updated_by>
+        <sys_updated_on>2022-10-26 09:41:18</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>58d274956df251101873e2e5a0632e5e</update_guid>
+        <update_guid_history>58d274956df251101873e2e5a0632e5e:566313760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>14aa18d899b949e981bbccdb3b4c2b01</sys_id>
+        <sys_metadata>54d274951bf25110a693caa7624bcb5d</sys_metadata>
+        <sys_name>tempToNetwork Adapter 11</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_54d274951bf25110a693caa7624bcb5d</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_54d274951bf25110a693caa7624bcb5d">50d274951bf25110a693caa7624bcb5f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

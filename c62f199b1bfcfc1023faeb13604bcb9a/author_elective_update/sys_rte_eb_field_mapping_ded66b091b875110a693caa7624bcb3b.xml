@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="DELETE">
+        <order>10000</order>
+        <referenced_sys_rte_eb_entity display_value="Network Intrusion Detection System 2">3f15ef851b875110a693caa7624bcb1f</referenced_sys_rte_eb_entity>
+        <source_sys_rte_eb_field/>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-07 14:25:06</sys_created_on>
+        <sys_id>ded66b091b875110a693caa7624bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1667831106877_0">92d66b091b875110a693caa7624bcb3a</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_ded66b091b875110a693caa7624bcb3b</sys_update_name>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-08 10:07:07</sys_updated_on>
+        <target_sys_rte_eb_field/>
+    </sys_rte_eb_field_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_rte_eb_field_mapping_ded66b091b875110a693caa7624bcb3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping"><sys_rte_eb_field_mapping action="INSERT_OR_UPDATE"><order>10000</order><referenced_sys_rte_eb_entity display_value="Network Intrusion Detection System 2">3f15ef851b875110a693caa7624bcb1f</referenced_sys_rte_eb_entity><source_sys_rte_eb_field/><sys_class_name>sys_rte_eb_field_mapping</sys_class_name><sys_created_by>liorg</sys_created_by><sys_created_on>2022-11-07 14:25:06</sys_created_on><sys_id>ded66b091b875110a693caa7624bcb3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_rte_eb_definition display_value="SG - Radiflow OT-Data Source">ebbcccdddbbe1110a1d001a3ca961959</sys_rte_eb_definition><sys_rte_eb_entity_mapping display_value="TempTocmdb_rel_ci_1667831106877_0">92d66b091b875110a693caa7624bcb3a</sys_rte_eb_entity_mapping><sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>sys_rte_eb_field_mapping_ded66b091b875110a693caa7624bcb3b</sys_update_name><sys_updated_by>liorg</sys_updated_by><sys_updated_on>2022-11-08 10:07:07</sys_updated_on><target_sys_rte_eb_field/></sys_rte_eb_field_mapping></record_update>]]></payload>
+        <payload_hash>-1367680341</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d11bcdc3dbf85950a1d001a3ca9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:06</sys_created_on>
+        <sys_id>4cb92cb91b47d110a693caa7624bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845b866a2a0000001</sys_recorded_at>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-09 08:34:06</sys_updated_on>
+        <type>RTE Field Mapping</type>
+        <update_guid>88b92cb96947d1103616899fa3a8bf0e</update_guid>
+        <update_guid_history>88b92cb96947d1103616899fa3a8bf0e:0,ded66b09ff875110a843d570ec80d73c:207183960</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-09 08:34:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_field_mapping">sys_rte_eb_field_mapping</sys_db_object>
+        <sys_id>09fe7ed6d2d4423b82850da99890c939</sys_id>
+        <sys_metadata>ded66b091b875110a693caa7624bcb3b</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_field_mapping_ded66b091b875110a693caa7624bcb3b</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_field_mapping_ded66b091b875110a693caa7624bcb3b">4cb92cb91b47d110a693caa7624bcb0e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

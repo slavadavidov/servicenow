@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_radif_sgc.SGentityMap</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SGentityMap</name>
+        <script><![CDATA[var SGentityMap = Class.create();
+SGentityMap.prototype = {
+    initialize: function() {
+        this.entity_type_map = {};
+        this.map_nids_type = {};
+        var grNids = new GlideRecord("cmdb_ci_nids");
+        grNids.addQuery("validated", true);
+        grNids.query();
+        while (grNids.next()) {
+            var name = grNids.name.toString();
+            this.map_nids_type[name] = grNids.network_type.getDisplayValue();
+        }
+        var grOT = new GlideRecord("cmdb_ot_entity_type");
+        grOT.query();
+        while (grOT.next()) {
+            var label = grOT.label.toString();
+            this.entity_type_map[label] = grOT.sys_id.toString();
+        }
+
+    },
+    get_nids_type: function(name) {
+        if (this.map_nids_type[name])
+            return this.map_nids_type[name];
+        else
+            return "";
+    },
+    gettypes: function(type_ot) {
+        if (this.entity_type_map[type_ot])
+            return this.entity_type_map[type_ot];
+        else
+            return this.entity_type_map["Unknown"];
+    },
+    type: 'SGentityMap'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-10 14:37:58</sys_created_on>
+        <sys_id>bbe5164adb0b11108c161fdc13961953</sys_id>
+        <sys_name>SGentityMap</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_script_include_bbe5164adb0b11108c161fdc13961953</sys_update_name>
+    </sys_script_include>
+</record_update>
