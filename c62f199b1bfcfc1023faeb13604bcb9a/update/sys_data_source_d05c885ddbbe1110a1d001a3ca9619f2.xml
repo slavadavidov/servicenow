@@ -16,7 +16,7 @@
 })(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
         <data_stream_action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</data_stream_action>
         <data_stream_action_inputs/>
-        <data_stream_connection_alias display_value="x_radif_sgc.CMDB_RADIFLOW_Conn_Cred_Alias">613d9f631b5538500ef431951a4bcbc4</data_stream_connection_alias>
+        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>

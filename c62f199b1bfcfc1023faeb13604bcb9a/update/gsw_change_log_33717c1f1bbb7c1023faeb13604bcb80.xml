@@ -2,7 +2,7 @@
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2021-11-18 15:23:53</change_date>
         <changed_by display_value="Adi Magori">49a878f1db95cd10fef70825ca9619c1</changed_by>
-        <content display_value="Configure MID Connection">12c240601b7130100ef431951a4bcb20</content>
+        <content display_value="Configure MID Server">12c240601b7130100ef431951a4bcb20</content>
         <related_change_log_entry display_value="2021-11-18 07:23:53">b3717c1f1bbb7c1023faeb13604bcb58</related_change_log_entry>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
-        <checksum>oR6hIkP9cqjFQVAQ7B3YqeXocd8=</checksum>
+        <checksum>M0Z3vzPY1M1Bpv8iXJ6H5wWtEM4=</checksum>
         <content display_value="Radiflow Integration with CMDB">3f02879c1b79341023faeb13604bcb8e</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
-        <progress>33.3333333</progress>
-        <related_log_entry display_value="2022-10-25 08:55:47">f7eebc451bb61110a693caa7624bcbd9</related_log_entry>
+        <progress>50</progress>
+        <related_log_entry display_value="2022-11-16 03:02:20">b3be4d881b1b9910a693caa7624bcbc0</related_log_entry>
         <status>1</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>

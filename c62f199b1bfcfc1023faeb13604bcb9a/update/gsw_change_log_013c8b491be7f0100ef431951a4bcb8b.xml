@@ -2,7 +2,7 @@
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2021-10-30 16:37:47</change_date>
         <changed_by display_value="Adi Magori">49a878f1db95cd10fef70825ca9619c1</changed_by>
-        <content display_value="Setup iSID Server with your TLS Certificate">554483051be7f0100ef431951a4bcbfc</content>
+        <content display_value="Install/Configure MID Server ">554483051be7f0100ef431951a4bcbfc</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

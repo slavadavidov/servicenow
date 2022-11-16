@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2022-11-16 10:19:50</change_date>
+        <changed_by display_value="Lior Grinberg">909741cfdbb09190fef70825ca9619fb</changed_by>
+        <content display_value="Radiflow Integration with CMDB">3f02879c1b79341023faeb13604bcb8e</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 10:19:50</sys_created_on>
+        <sys_id>9d058dc8db5795108c161fdc1396194e</sys_id>
+        <sys_name>2022-11-16 10:19:50</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>gsw_change_log_9d058dc8db5795108c161fdc1396194e</sys_update_name>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>
