@@ -29,6 +29,8 @@
   var SGmap=new SGentityMap();
    for (var i = 0; i < batch.length; i++) {
       var input = batch[i].input; 
+      if(input=="Engineering Station")
+         input="EWS";
       output[i] =SGmap.gettypes(input);     
    }
 })(batch, output);]]></script>

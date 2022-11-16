@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
+    <gsw_content_information action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article><![CDATA[<p>Please enter the APi Key to this property: x_radif_sgc.Radiflow_api_key</p>]]></article>
+        <best_practice_acceptable>false</best_practice_acceptable>
+        <dependent_on_contents/>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
+        <description/>
+        <embedded_help_qualifier/>
+        <end_point/>
+        <end_point_open_mode>2</end_point_open_mode>
+        <end_point_type>7</end_point_type>
+        <field/>
+        <filter/>
+        <filter_result/>
+        <implicit_dependent_on/>
+        <implicit_plugin_dependencies/>
+        <is_dynamic>false</is_dynamic>
+        <more_info_available>false</more_info_available>
+        <more_info_html/>
+        <order>220</order>
+        <parent display_value="Configure iSID Connection">53a7fbdc1bab70100ef431951a4bcb2f</parent>
+        <parents>53a7fbdc1bab70100ef431951a4bcb2f,3f02879c1b79341023faeb13604bcb8e</parents>
+        <plugin_id/>
+        <property_name>x_radif_sgc.Radiflow_api_key</property_name>
+        <property_value>&lt;enter api key&gt;</property_value>
+        <quick_startable>false</quick_startable>
+        <root_parent display_value="Radiflow Integration with CMDB">3f02879c1b79341023faeb13604bcb8e</root_parent>
+        <skippable>false</skippable>
+        <supports_child_content>false</supports_child_content>
+        <sys_class_name>gsw_content_information</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:00:53</sys_created_on>
+        <sys_id>3e2e0104db9795108c161fdc139619a8</sys_id>
+        <sys_name>Enter APi Key</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>gsw_content_information_3e2e0104db9795108c161fdc139619a8</sys_update_name>
+        <table/>
+        <title>Enter APi Key</title>
+        <weight>1</weight>
+    </gsw_content_information>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e2e0104db9795108c161fdc139619a8"/>
+</record_update>

@@ -8,7 +8,7 @@
         <dependent_on_plugins/>
         <dependent_on_plugins_ids/>
         <description><![CDATA[<p>To complete this step you need the following data from your administrator:</p>
-<ul style="list-style-position: inside;"><li>Your iSID server ip address</li><li>Your Credential alias name</li></ul>]]></description>
+<ul style="list-style-position: inside;"><li>Your iSID server ip address</li><li>Your API key</li></ul>]]></description>
         <display_child_max_num/>
         <done_status_text/>
         <hide_getting_started>false</hide_getting_started>

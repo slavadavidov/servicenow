@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
         <order>10000</order>
-        <referenced_sys_rte_eb_entity display_value="Logical connection 1">243b33c41b4fd510a693caa7624bcbd8</referenced_sys_rte_eb_entity>
+        <referenced_sys_rte_eb_entity display_value="Hardware 2">fc43809c1b8fd510a693caa7624bcb2f</referenced_sys_rte_eb_entity>
         <source_sys_rte_eb_field/>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>liorg</sys_created_by>

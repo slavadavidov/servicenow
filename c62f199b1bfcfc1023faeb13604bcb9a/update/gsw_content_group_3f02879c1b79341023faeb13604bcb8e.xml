@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_group">
     <gsw_content_group action="INSERT_OR_UPDATE">
         <active>true</active>
-        <checksum>oR6hIkP9cqjFQVAQ7B3YqeXocd8=</checksum>
+        <checksum>M0Z3vzPY1M1Bpv8iXJ6H5wWtEM4=</checksum>
         <child_can_have_roles>false</child_can_have_roles>
         <children_layout>0</children_layout>
         <dependent_on_contents/>
@@ -20,7 +20,7 @@
         <parents/>
         <progress_text/>
         <roles/>
-        <root_intro_frame_link>https://sndppnowxradiflow1015demo.service-now.com/x_radif_sgc_$radiflow_guided_setup.do</root_intro_frame_link>
+        <root_intro_frame_link>x_radif_sgc_$radiflow_guided_setup.do</root_intro_frame_link>
         <root_parent/>
         <skippable>false</skippable>
         <supports_child_content>true</supports_child_content>

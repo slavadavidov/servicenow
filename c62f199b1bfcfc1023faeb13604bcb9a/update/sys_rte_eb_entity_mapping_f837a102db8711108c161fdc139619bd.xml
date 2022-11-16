@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
     <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
         <condition_script><![CDATA[(function() {
-    if (((input.temp.u_type))) {
+    if (((input.temp.Type_of_Sensor === 'OT'))) {
         return true;
     }
     return false;
 })();]]></condition_script>
-        <encoded_query>u_typeISNOTEMPTY</encoded_query>
+        <encoded_query>Type_of_Sensor=OT</encoded_query>
         <entity_mapping_group>7437a102db8711108c161fdc139619bb</entity_mapping_group>
         <ignore>false</ignore>
         <is_conditional>true</is_conditional>

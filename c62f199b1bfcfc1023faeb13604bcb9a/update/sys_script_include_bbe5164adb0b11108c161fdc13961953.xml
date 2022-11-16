@@ -37,7 +37,7 @@ SGentityMap.prototype = {
         if (this.entity_type_map[type_ot])
             return this.entity_type_map[type_ot];
         else
-            return this.entity_type_map["Unknown"];
+            return this.entity_type_map["Operational Technology Device"];
     },
     type: 'SGentityMap'
 };]]></script>

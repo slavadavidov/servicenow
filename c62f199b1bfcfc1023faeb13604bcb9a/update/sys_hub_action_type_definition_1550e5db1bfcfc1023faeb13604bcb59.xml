@@ -13,7 +13,7 @@
         <description>Imports the SG-OT Data Sample using the ServiceNow Attachment API</description>
         <ih_action>true</ih_action>
         <internal_name>sgradiflow</internal_name>
-        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9aa2bad-32a8-4926-afc3-9c24b4f2c9da].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9aa2bad-32a8-4926-afc3-9c24b4f2c9da].api_key}}","label":"step➛Script step➛api_key","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].api_key}}","label":"step➛Script step➛api_key","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>91a6434c1b1130500ef431951a4bcbb5</master_snapshot>
         <name>SG-Radiflow</name>
         <natlang/>
@@ -60,10 +60,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:13</sys_created_on>
         <sys_id>1a5029db1bfcfc1023faeb13604bcb3f</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":{"$cv":{"$c":"java.lang.String","$v":""}},"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":{"$cv":{"$c":"java.lang.String","$v":""}},"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7550e5dbe9fcfc10dba035e247269ec4\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-16 11:06:33</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":{"$cv":{"$c":"java.lang.String","$v":""}},"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":[{"mac":{"$cv":{"$c":"java.lang.String","$v":""}}}],"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":[{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":[{"mac":{"$cv":{"$c":"java.lang.String","$v":""}}}],"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"installed_date":{"$cv":{"$c":"java.lang.String","$v":""}},"version":{"$cv":{"$c":"java.lang.String","$v":""}}}],"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":[{"ip":{"$cv":{"$c":"java.lang.String","$v":""}}}],"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}}],"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"installed_date":{"$cv":{"$c":"java.lang.String","$v":""}},"version":{"$cv":{"$c":"java.lang.String","$v":""}}}],"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":[{"ip":{"$cv":{"$c":"java.lang.String","$v":""}}}],"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FD7550e5dbe9fcfc10dba035e247269ec4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7550e5dbe9fcfc10dba035e247269ec4\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Asset">7150e5db1bfcfc1023faeb13604bcbc7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -229,7 +229,7 @@
         <table>var__m_sys_hub_action_output_1550e5db1bfcfc1023faeb13604bcb59</table>
         <value>{{step[5893a978-afdd-4a8b-a2d5-ec3b6ad14abf].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN13f0ec901b7bb41023faeb13604bcbde,1950e5db1bfcfc1023faeb13604bcb90,27f020d01b7bb41023faeb13604bcb2c,2bf020d01b7bb41023faeb13604bcb33,dd50e5db1bfcfc1023faeb13604bcb8b,e7f020d01b7bb41023faeb13604bcb25"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=1550e5db1bfcfc1023faeb13604bcb59^sys_idNOT IN13f0ec901b7bb41023faeb13604bcbde,1950e5db1bfcfc1023faeb13604bcb90,27f020d01b7bb41023faeb13604bcb2c,2bf020d01b7bb41023faeb13604bcb33,999f8108db9795108c161fdc13961982,dd50e5db1bfcfc1023faeb13604bcb8b,e7f020d01b7bb41023faeb13604bcb25"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>5893a978-afdd-4a8b-a2d5-ec3b6ad14abf</cid>
@@ -238,18 +238,19 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
+        <inputs/>
         <label>REST step</label>
-        <order>3</order>
+        <order>4</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:29:59</sys_created_on>
         <sys_id>13f0ec901b7bb41023faeb13604bcbde</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 07:38:56</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=13f0ec901b7bb41023faeb13604bcbde"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -358,10 +359,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:35</sys_created_on>
         <sys_id>9cf6a4711b0c05500ef431951a4bcb8c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 05:35:26</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api_key","value":"f269f-8c554c54957f4c1f06cce62f"}]}</value>
+        <sys_updated_on>2022-11-16 10:58:24</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -372,10 +373,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>aff020d01b7bb41023faeb13604bcb20</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 07:38:56</sys_updated_on>
-        <value>https://3.72.45.4/isid/</value>
+        <sys_updated_on>2022-11-16 10:53:02</sys_updated_on>
+        <value>https://3.65.228.94/isid/</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -421,7 +422,79 @@
         <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_13f0ec901b7bb41023faeb13604bcbde^id=13f0ec901b7bb41023faeb13604bcbde"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=13f0ec901b7bb41023faeb13604bcbde"/>
+    <sys_element_mapping action="delete_multiple" query="id=13f0ec901b7bb41023faeb13604bcbde"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>42642d1cdb365510a1d001a3ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>06642d1cdb365510a1d001a3ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-24 14:06:28</sys_created_on>
+        <sys_id>e85c13acdb369510a1d001a3ca96195e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"api_key","value":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].api_key}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>c2642d1cdb365510a1d001a3ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>ca642d1cdb365510a1d001a3ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>13f0ec901b7bb41023faeb13604bcbde</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:04</sys_created_on>
+        <sys_id>8e642d1cdb365510a1d001a3ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=13f0ec901b7bb41023faeb13604bcbde"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=13f0ec901b7bb41023faeb13604bcbde^sys_idNOT IN57f0ec901b7bb41023faeb13604bcbf6"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -541,17 +614,17 @@
         <icon/>
         <inputs/>
         <label>Request</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
         <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:09</sys_created_on>
         <sys_id>1950e5db1bfcfc1023faeb13604bcb90</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 10:45:38</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1950e5db1bfcfc1023faeb13604bcb90"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -562,9 +635,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-08 10:06:03</sys_created_on>
         <sys_id>1f4de6581b5930500ef431951a4bcbb2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 10:45:38</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:13</sys_updated_on>
         <value>0</value>
         <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
@@ -597,17 +670,17 @@
         <inputs/>
         <inputs/>
         <label>Splitter step</label>
-        <order>5</order>
+        <order>6</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>27f020d01b7bb41023faeb13604bcb2c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:01</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27f020d01b7bb41023faeb13604bcb2c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -702,17 +775,17 @@
         <inputs/>
         <inputs/>
         <label>Script Parser step</label>
-        <order>6</order>
+        <order>7</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>2bf020d01b7bb41023faeb13604bcb33</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:24</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bf020d01b7bb41023faeb13604bcb33"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -792,6 +865,171 @@
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2bf020d01b7bb41023faeb13604bcb33"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
+        <cid>31920f36-6f3a-49cb-a780-378040995bb2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:05:59</sys_created_on>
+        <sys_id>999f8108db9795108c161fdc13961982</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=999f8108db9795108c161fdc13961982"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>999f8108db9795108c161fdc13961982</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:05:59</sys_created_on>
+        <sys_id>199f8108db9795108c161fdc13961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+outputs.api_key=gs.getProperty("x_radif_sgc.Radiflow_api_key");
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>999f8108db9795108c161fdc13961982</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:05:59</sys_created_on>
+        <sys_id>559f8108db9795108c161fdc13961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_999f8108db9795108c161fdc13961982^id=999f8108db9795108c161fdc13961982"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=999f8108db9795108c161fdc13961982"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=999f8108db9795108c161fdc13961982"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=999f8108db9795108c161fdc13961982^sys_idNOT IN999f8108db9795108c161fdc1396198a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b2d2f8bb-548c-493d-815e-78e9ffcfe120</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>api_key</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">999f8108db9795108c161fdc13961982</model>
+        <model_id>999f8108db9795108c161fdc13961982</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_999f8108db9795108c161fdc13961982</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:05:59</sys_created_on>
+        <sys_id>999f8108db9795108c161fdc1396198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=999f8108db9795108c161fdc13961982"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_999f8108db9795108c161fdc13961982^sys_idNOT IN1d9f8108db9795108c161fdc1396198d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>api_key</element>
+        <help/>
+        <hint/>
+        <label>api_key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_999f8108db9795108c161fdc13961982</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:05:59</sys_created_on>
+        <sys_id>1d9f8108db9795108c161fdc1396198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action>
         <cid>712ba6b0-f47a-4d40-a0a6-0734bfd5099a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -806,12 +1044,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:09</sys_created_on>
         <sys_id>dd50e5db1bfcfc1023faeb13604bcb8b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-22 15:40:09</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dd50e5db1bfcfc1023faeb13604bcb8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd50e5db1bfcfc1023faeb13604bcb8b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 10:55:19</sys_created_on>
+        <sys_id>492dc504db9795108c161fdc1396193f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:05:59</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=dd50e5db1bfcfc1023faeb13604bcb8b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=dd50e5db1bfcfc1023faeb13604bcb8b"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=dd50e5db1bfcfc1023faeb13604bcb8b"/>
@@ -826,17 +1078,17 @@
         <icon/>
         <inputs/>
         <label>Parsing</label>
-        <order>4</order>
+        <order>5</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-09 06:30:00</sys_created_on>
         <sys_id>e7f020d01b7bb41023faeb13604bcb25</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-09 06:30:00</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e7f020d01b7bb41023faeb13604bcb25"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -939,14 +1191,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>4a5029db1bfcfc1023faeb13604bcb07</sys_id>
-        <sys_mod_count>219</sys_mod_count>
+        <sys_mod_count>241</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1374,14 +1626,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>7d50e5db1bfcfc1023faeb13604bcbfa</sys_id>
-        <sys_mod_count>219</sys_mod_count>
+        <sys_mod_count>241</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1461,14 +1713,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>c25029db1bfcfc1023faeb13604bcb01</sys_id>
-        <sys_mod_count>219</sys_mod_count>
+        <sys_mod_count>241</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1548,14 +1800,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>ce5029db1bfcfc1023faeb13604bcb0d</sys_id>
-        <sys_mod_count>215</sys_mod_count>
+        <sys_mod_count>237</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1722,14 +1974,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:40:12</sys_created_on>
         <sys_id>f550e5db1bfcfc1023faeb13604bcbf4</sys_id>
-        <sys_mod_count>219</sys_mod_count>
+        <sys_mod_count>241</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:18</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2214,17 +2466,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="SG-Radiflow">1550e5db1bfcfc1023faeb13604bcb59</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4ba6c34c1b1130500ef431951a4bcb3e","name":"plan","plan_signature":null}}</plan>
-        <snapshot>f5c3fb9ddb839110a1d001a3ca961919</snapshot>
+        <snapshot>b2bf0908db9795108c161fdc1396195b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ba6c34c1b1130500ef431951a4bcb3e</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:25</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:43</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2238,7 +2490,7 @@
         <copied_from_name/>
         <description>Imports the SG-OT Data Sample using the ServiceNow Attachment API</description>
         <internal_name>sgradiflow</internal_name>
-        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment_id}}","label":"action➛Attachment ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1715484e-8c8b-4370-971b-662d14533676].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[26449ca6-4e5b-443f-be0c-c727bc7977b1].name1}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset}}","label":"step➛Script step➛asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1}}","label":"step➛Script step➛Asset","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name}}","label":"step➛Script step➛Asset➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].asset1.Name.name_child1}}","label":"step➛Script step➛Asset➛Name➛Name_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[78b0a69d-dd13-4e11-a177-a79d5994b424].name}}","label":"step➛Script step➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9aa2bad-32a8-4926-afc3-9c24b4f2c9da].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c9aa2bad-32a8-4926-afc3-9c24b4f2c9da].api_key}}","label":"step➛Script step➛api_key","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].api_key}}","label":"step➛Script step➛api_key","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>SG-Radiflow</name>
         <natlang/>
@@ -2251,7 +2503,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91a6434c1b1130500ef431951a4bcbb5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2259,7 +2511,7 @@
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:36</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2315,10 +2567,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>8aa6834c1b1130500ef431951a4bcb70</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 14:35:42</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":{"$cv":{"$c":"java.lang.String","$v":""}},"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":{"$cv":{"$c":"java.lang.String","$v":""}},"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa1a6434caa113050aaeb7291955b80ec\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-16 11:01:19</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":{"$cv":{"$c":"java.lang.String","$v":""}},"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"zone":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":[{"mac":{"$cv":{"$c":"java.lang.String","$v":""}}}],"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"module":[{"short_description":{"$cv":{"$c":"java.lang.String","$v":""}},"memory":[{"memory_card_serial":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_type":{"$cv":{"$c":"java.lang.String","$v":""}},"memory_size":{"$cv":{"$c":"java.lang.String","$v":""}}}],"asset_criticality":{"$cv":{"$c":"java.lang.String","$v":""}},"io_field_device_type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_2":{"$cv":{"$c":"java.lang.String","$v":""}},"firmware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"last_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"type":{"$cv":{"$c":"java.lang.String","$v":""}},"customfield_1":{"$cv":{"$c":"java.lang.String","$v":""}},"hardware_version":{"$cv":{"$c":"java.lang.String","$v":""}},"manufacturer":{"$cv":{"$c":"java.lang.String","$v":""}},"sensor_id":{"$cv":{"$c":"java.lang.String","$v":""}},"discovery_source":{"$cv":{"$c":"java.lang.String","$v":""}},"first_discovered":{"$cv":{"$c":"java.lang.String","$v":""}},"mac_address":[{"mac":{"$cv":{"$c":"java.lang.String","$v":""}}}],"vendor":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_id":{"$cv":{"$c":"java.lang.String","$v":""}},"has_module":{"$cv":{"$c":"java.lang.String","$v":""}},"model_number":{"$cv":{"$c":"java.lang.String","$v":""}},"serial_number_type":{"$cv":{"$c":"java.lang.String","$v":""}},"assigned_to":{"$cv":{"$c":"java.lang.String","$v":""}},"slot_number":{"$cv":{"$c":"java.lang.String","$v":""}},"last_updated":{"$cv":{"$c":"java.lang.String","$v":""}},"module_type":{"$cv":{"$c":"java.lang.String","$v":""}},"purdue_level":{"$cv":{"$c":"java.lang.String","$v":""}},"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"installed_date":{"$cv":{"$c":"java.lang.String","$v":""}},"version":{"$cv":{"$c":"java.lang.String","$v":""}}}],"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":[{"ip":{"$cv":{"$c":"java.lang.String","$v":""}}}],"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}}],"os_version":{"$cv":{"$c":"java.lang.String","$v":""}},"backplane_name":{"$cv":{"$c":"java.lang.String","$v":""}},"software_installed":[{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"installed_date":{"$cv":{"$c":"java.lang.String","$v":""}},"version":{"$cv":{"$c":"java.lang.String","$v":""}}}],"serial_number":{"$cv":{"$c":"java.lang.String","$v":""}},"ip_address":[{"ip":{"$cv":{"$c":"java.lang.String","$v":""}}}],"support_group":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"correlation_id":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"50af68a6-86b5-4ae3-a7ff-fe73d941e8ef\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"35\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"zone":"String","zone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Zone\",\"mandatory\":\"false\",\"order\":\"36\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"30\",\"max_length\":\"0\",\"child_uiUniqueId\":\"68f435dc-8ca8-47bf-92ac-337e054fa3c2\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"module":[{"module":{"short_description":"String","short_description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"memory":[{"memory":{"memory_card_serial":"String","memory_card_serial.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Card Serial\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"memory_type":"String","memory_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"memory_size":"String","memory_size.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Memory Size\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"memory.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Memory Module\",\"mandatory\":\"false\",\"child_name\":\"memory_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Memory Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f5483ca4-53db-4a5d-81e6-c1cba7633132\"}"},"asset_criticality":"String","asset_criticality.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Asset Criticality\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"io_field_device_type":"String","io_field_device_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IO Field Device Type\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"customfield_2":"String","customfield_2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 2\",\"mandatory\":\"false\",\"order\":\"20\",\"max_length\":\"0\"}"},"firmware_version":"String","firmware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Firmware Version\",\"mandatory\":\"false\",\"order\":\"15\",\"max_length\":\"0\"}"},"last_discovered":"String","last_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Discovered\",\"mandatory\":\"false\",\"order\":\"13\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"customfield_1":"String","customfield_1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Custom Field 1\",\"mandatory\":\"false\",\"order\":\"19\",\"max_length\":\"0\"}"},"hardware_version":"String","hardware_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Hardware Version\",\"mandatory\":\"false\",\"order\":\"16\",\"max_length\":\"0\"}"},"manufacturer":"String","manufacturer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Manufacturer\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"},"sensor_id":"String","sensor_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Sensor Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"discovery_source":"String","discovery_source.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Discovery Source\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"first_discovered":"String","first_discovered.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"First Discovered\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"0\"}"},"mac_address":[{"mac_address":{"mac":"String","mac.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Mac\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"mac_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Mac Address\",\"mandatory\":\"false\",\"child_name\":\"mac_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Mac Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"baa2b56e-2fd9-44f8-95f2-55775debbee7\"}"},"vendor":"String","vendor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_id":"String","backplane_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Id\",\"mandatory\":\"false\",\"order\":\"23\",\"max_length\":\"0\"}"},"has_module":"String","has_module.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Has Module\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"model_number":"String","model_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Model Number\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"serial_number_type":"String","serial_number_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number Type\",\"mandatory\":\"false\",\"order\":\"28\",\"max_length\":\"0\"}"},"assigned_to":"String","assigned_to.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Assigned To\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"slot_number":"String","slot_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Slot Number\",\"mandatory\":\"false\",\"order\":\"24\",\"max_length\":\"0\"}"},"last_updated":"String","last_updated.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Updated\",\"mandatory\":\"false\",\"order\":\"14\",\"max_length\":\"0\"}"},"module_type":"String","module_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Module Type\",\"mandatory\":\"false\",\"order\":\"25\",\"max_length\":\"0\"}"},"purdue_level":"String","purdue_level.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Purdue Level\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"11\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"22\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_oject\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"be7b3ec7-9b44-46a3-aebd-f2dcdde1b975\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"27\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ip\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ip Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Ip Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"32\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59c49ced-3a18-4dd7-8fff-dd1940a54452\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"30\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"18\",\"max_length\":\"0\"}"}}}],"module.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Controle Module\",\"mandatory\":\"false\",\"child_name\":\"module_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Controle Module Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"34\",\"max_length\":\"0\",\"child_uiUniqueId\":\"59a5c235-6697-40cd-b129-6fc86ff7c872\"}"},"os_version":"String","os_version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"OS Version\",\"mandatory\":\"false\",\"order\":\"10\",\"max_length\":\"0\"}"},"backplane_name":"String","backplane_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Backplane Name\",\"mandatory\":\"false\",\"order\":\"21\",\"max_length\":\"0\"}"},"software_installed":[{"software_installed":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"installed_date":"String","installed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Installed Date\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"version":"String","version.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Version\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}}}],"software_installed.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Software Installed\",\"mandatory\":\"false\",\"child_name\":\"software_installed_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Software Installed Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"33\",\"max_length\":\"0\",\"child_uiUniqueId\":\"da598466-201e-44a7-96f8-b7d3cadb547e\"}"},"serial_number":"String","serial_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Serial Number\",\"mandatory\":\"false\",\"order\":\"26\",\"max_length\":\"0\"}"},"ip_address":[{"ip_address":{"ip":"String","ip.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IP\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"ip_address.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IP Address\",\"mandatory\":\"false\",\"child_name\":\"ip_address_object\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"IP Address Object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"31\",\"max_length\":\"0\",\"child_uiUniqueId\":\"41f9adda-e750-447f-aa3c-c74be477d7b0\"}"},"support_group":"String","support_group.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Support Group\",\"mandatory\":\"false\",\"order\":\"29\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"correlation_id":"String","correlation_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Correlation Id\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"17\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa1a6434caa113050aaeb7291955b80ec.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa1a6434caa113050aaeb7291955b80ec\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Asset\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"3c987ec7-11bd-4812-90ee-2252d071cd2e\"}"}}}</value>
         <variable display_value="Asset">e5a6434c1b1130500ef431951a4bcbee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2456,7 +2708,172 @@
         <table>var__m_sys_hub_action_output_91a6434c1b1130500ef431951a4bcbb5</table>
         <value>{{step[5893a978-afdd-4a8b-a2d5-ec3b6ad14abf].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=91a6434c1b1130500ef431951a4bcbb5^sys_idNOT IN89f6e4711b0c05500ef431951a4bcb88,d5a6434c1b1130500ef431951a4bcbbf,d5f6e4711b0c05500ef431951a4bcba2,d5f6e4711b0c05500ef431951a4bcba8,ddf6e4711b0c05500ef431951a4bcbae,e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=91a6434c1b1130500ef431951a4bcbb5^sys_idNOT IN26bfc508db9795108c161fdc139619d3,89f6e4711b0c05500ef431951a4bcb88,d5a6434c1b1130500ef431951a4bcbbf,d5f6e4711b0c05500ef431951a4bcba2,d5f6e4711b0c05500ef431951a4bcba8,ddf6e4711b0c05500ef431951a4bcbae,e9a6434c1b1130500ef431951a4bcbc3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
+        <cid>31920f36-6f3a-49cb-a780-378040995bb2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section>DATASTREAM_PREPROCESS</section>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:06:37</sys_created_on>
+        <sys_id>26bfc508db9795108c161fdc139619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26bfc508db9795108c161fdc139619d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>26bfc508db9795108c161fdc139619d3</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:06:37</sys_created_on>
+        <sys_id>62bfc508db9795108c161fdc139619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+outputs.api_key=gs.getProperty("x_radif_sgc.Radiflow_api_key");
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>26bfc508db9795108c161fdc139619d3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:06:37</sys_created_on>
+        <sys_id>aebfc508db9795108c161fdc139619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_26bfc508db9795108c161fdc139619d3^id=26bfc508db9795108c161fdc139619d3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=26bfc508db9795108c161fdc139619d3"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=26bfc508db9795108c161fdc139619d3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=26bfc508db9795108c161fdc139619d3^sys_idNOT INe2bfc508db9795108c161fdc139619d7"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b2d2f8bb-548c-493d-815e-78e9ffcfe120</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>api_key</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">26bfc508db9795108c161fdc139619d3</model>
+        <model_id>26bfc508db9795108c161fdc139619d3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_26bfc508db9795108c161fdc139619d3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:06:37</sys_created_on>
+        <sys_id>e2bfc508db9795108c161fdc139619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=26bfc508db9795108c161fdc139619d3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_26bfc508db9795108c161fdc139619d3^sys_idNOT IN66bfc508db9795108c161fdc139619da"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>api_key</element>
+        <help/>
+        <hint/>
+        <label>api_key</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_26bfc508db9795108c161fdc139619d3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:06:37</sys_created_on>
+        <sys_id>66bfc508db9795108c161fdc139619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="SG-Radiflow">91a6434c1b1130500ef431951a4bcbb5</action>
         <cid>5893a978-afdd-4a8b-a2d5-ec3b6ad14abf</cid>
@@ -2465,18 +2882,19 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
+        <inputs/>
         <label>REST step</label>
-        <order>3</order>
+        <order>4</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:38</sys_created_on>
         <sys_id>89f6e4711b0c05500ef431951a4bcb88</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 14:46:53</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=89f6e4711b0c05500ef431951a4bcb88"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2543,10 +2961,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>59f6e4711b0c05500ef431951a4bcb9d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 05:35:41</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"api_key","value":"f269f-8c554c54957f4c1f06cce62f"}]}</value>
+        <sys_updated_on>2022-11-16 11:01:18</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2627,10 +3045,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>ddf6e4711b0c05500ef431951a4bcb9d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-01 14:46:53</sys_updated_on>
-        <value>https://3.72.45.4/isid/</value>
+        <sys_updated_on>2022-11-16 11:01:18</sys_updated_on>
+        <value>https://3.65.228.94/isid/</value>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2648,7 +3066,79 @@
         <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_89f6e4711b0c05500ef431951a4bcb88^id=89f6e4711b0c05500ef431951a4bcb88"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=89f6e4711b0c05500ef431951a4bcb88"/>
+    <sys_element_mapping action="delete_multiple" query="id=89f6e4711b0c05500ef431951a4bcb88"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>3d74ed1cdb365510a1d001a3ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>fd74ed1cdb365510a1d001a3ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-24 16:13:10</sys_created_on>
+        <sys_id>28597764dbb69510a1d001a3ca961967</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"api_key","value":"{{step[31920f36-6f3a-49cb-a780-378040995bb2].api_key}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>f174ed1cdb365510a1d001a3ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>b574ed1cdb365510a1d001a3ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>89f6e4711b0c05500ef431951a4bcb88</id>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-10-23 10:44:19</sys_created_on>
+        <sys_id>7974ed1cdb365510a1d001a3ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-10-23 10:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=89f6e4711b0c05500ef431951a4bcb88"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=89f6e4711b0c05500ef431951a4bcb88^sys_idNOT IN49f6e4711b0c05500ef431951a4bcb8f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2775,12 +3265,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:19</sys_created_on>
         <sys_id>d5a6434c1b1130500ef431951a4bcbbf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-07 17:18:19</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:01:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5a6434c1b1130500ef431951a4bcbbf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d5a6434c1b1130500ef431951a4bcbbf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-11-16 11:01:17</sys_created_on>
+        <sys_id>248ec184db9795108c161fdc1396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:01:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_235a47afcbfa2300a2fcb895634c9c04^id=d5a6434c1b1130500ef431951a4bcbbf"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=d5a6434c1b1130500ef431951a4bcbbf"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=d5a6434c1b1130500ef431951a4bcbbf"/>
@@ -2795,17 +3299,17 @@
         <icon/>
         <inputs/>
         <label>Parsing</label>
-        <order>4</order>
+        <order>5</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Parsing">1f1b8bafcbfa2300a2fcb895634c9c33</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>d5f6e4711b0c05500ef431951a4bcba2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:01:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5f6e4711b0c05500ef431951a4bcba2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2851,17 +3355,17 @@
         <inputs/>
         <inputs/>
         <label>Splitter step</label>
-        <order>5</order>
+        <order>6</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Splitter">f4fe7504e713230007a64caac2f6a9d0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>d5f6e4711b0c05500ef431951a4bcba8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:21</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:01:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5f6e4711b0c05500ef431951a4bcba8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2956,17 +3460,17 @@
         <inputs/>
         <inputs/>
         <label>Script Parser step</label>
-        <order>6</order>
+        <order>7</order>
         <outputs/>
         <section>DATASTREAM_PARSING</section>
         <step_type display_value="Script Parser">e83b26f68723230057a8ed4d87cb0b24</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-26 09:02:39</sys_created_on>
         <sys_id>ddf6e4711b0c05500ef431951a4bcbae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-26 09:02:39</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:01:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ddf6e4711b0c05500ef431951a4bcbae"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3053,17 +3557,17 @@
         <icon/>
         <inputs/>
         <label>Request</label>
-        <order>2</order>
+        <order>3</order>
         <outputs/>
         <section>DATASTREAM_REQUEST</section>
         <step_type display_value="Request">21ba87afcbfa2300a2fcb895634c9c3d</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:19</sys_created_on>
         <sys_id>e9a6434c1b1130500ef431951a4bcbc3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 10:45:52</sys_updated_on>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e9a6434c1b1130500ef431951a4bcbc3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3074,9 +3578,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-08 10:22:41</sys_created_on>
         <sys_id>03117a1c1b5930500ef431951a4bcb3c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-08 10:45:52</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-11-16 11:06:37</sys_updated_on>
         <value>0</value>
         <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
@@ -3166,14 +3670,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:21</sys_created_on>
         <sys_id>b1a6834c1b1130500ef431951a4bcb40</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3514,14 +4018,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f1a6834c1b1130500ef431951a4bcb27</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3775,14 +4279,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f5a6834c1b1130500ef431951a4bcb2d</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3949,14 +4453,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>f9a6834c1b1130500ef431951a4bcb1a</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4123,14 +4627,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-07 17:18:20</sys_created_on>
         <sys_id>fda6834c1b1130500ef431951a4bcb20</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>liorg</sys_updated_by>
-        <sys_updated_on>2022-11-02 15:07:22</sys_updated_on>
+        <sys_updated_on>2022-11-16 11:06:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
     <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
         <condition_script><![CDATA[(function() {
-    if (((input.temp.u_type === 'IOT')) && !((input.temp.u_type === 'PLC')) && !((input.temp.u_type === 'IDS'))) {
+    if (((input.temp.u_type === 'IOT')) && !((input.temp.u_type === 'PLC')) && !((input.temp.u_type === 'Server')) && !((input.temp.u_type === 'IDS'))) {
         return true;
     }
     return false;
@@ -11,7 +11,7 @@
         <ignore>false</ignore>
         <is_conditional>true</is_conditional>
         <name>tempToIoT Device 1</name>
-        <order>300</order>
+        <order>400</order>
         <source_sys_rte_eb_entity display_value="temp">e4dc0011dbfe1110a1d001a3ca961941</source_sys_rte_eb_entity>
         <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
         <sys_created_by>michaelm</sys_created_by>

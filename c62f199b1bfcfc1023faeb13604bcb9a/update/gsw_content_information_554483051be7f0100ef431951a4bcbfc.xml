@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_content_information">
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
-        <article><![CDATA[<p>Follow the attached instructions to setup a Secure iSID Server with your own TLS Certificate</p>
+        <article><![CDATA[<p>Follow the instructions to setup a Mid Server</p>
 <div id="pageContainer1">
-<div><br /></div>
+<div> </div>
 </div>]]></article>
         <best_practice_acceptable>true</best_practice_acceptable>
         <dependent_on_contents/>
-        <dependent_on_plugins>com.snc.documentviewer</dependent_on_plugins>
-        <dependent_on_plugins_ids>com.snc.documentviewer</dependent_on_plugins_ids>
+        <dependent_on_plugins/>
+        <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier>Embedded help qualifier</embedded_help_qualifier>
-        <end_point>https://sndppnowxradiflow1015demo.service-now.com/$viewer.do?sysparm_stack=no&amp;sysparm_sys_id=1afa2f9d1b2ff01023faeb13604bcbb4</end_point>
-        <end_point_open_mode>1</end_point_open_mode>
+        <end_point>https://docs.servicenow.com/bundle/tokyo-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html</end_point>
+        <end_point_open_mode>2</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
         <filter/>
@@ -23,7 +23,7 @@
         <more_info_available>false</more_info_available>
         <more_info_html/>
         <order>101</order>
-        <parent display_value="Configure MID Connection">12c240601b7130100ef431951a4bcb20</parent>
+        <parent display_value="Configure MID Server">12c240601b7130100ef431951a4bcb20</parent>
         <parents>12c240601b7130100ef431951a4bcb20,3f02879c1b79341023faeb13604bcb8e</parents>
         <plugin_id/>
         <property_name/>
@@ -36,13 +36,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-30 16:08:24</sys_created_on>
         <sys_id>554483051be7f0100ef431951a4bcbfc</sys_id>
-        <sys_name>Setup iSID Server with your TLS Certificate</sys_name>
+        <sys_name>Install/Configure MID Server </sys_name>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>gsw_content_information_554483051be7f0100ef431951a4bcbfc</sys_update_name>
         <table/>
-        <title>Setup iSID Server with your TLS Certificate</title>
+        <title>Install/Configure MID Server </title>
         <weight>1</weight>
     </gsw_content_information>
     <sys_translated_text action="delete_multiple" query="documentkey=554483051be7f0100ef431951a4bcbfc"/>

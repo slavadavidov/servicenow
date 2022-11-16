@@ -2,7 +2,7 @@
     <gsw_content_information action="INSERT_OR_UPDATE">
         <active>true</active>
         <article><![CDATA[<p>Set a schedule time to import data </p>
-<p><br /></p>]]></article>
+<p> </p>]]></article>
         <best_practice_acceptable>true</best_practice_acceptable>
         <dependent_on_contents/>
         <dependent_on_plugins/>
@@ -11,10 +11,12 @@
         <embedded_help_qualifier/>
         <end_point>https://sndppnowxradiflow1015demo.service-now.com/nav_to.do?uri=scheduled_import_set.do?sys_id=-1%26sysparm_query=name=Schedule%20iSID%20import^concurrent_import=true^partition_method=customSize^partition_size=15000</end_point>
         <end_point_open_mode>2</end_point_open_mode>
-        <end_point_type>1</end_point_type>
+        <end_point_type>9</end_point_type>
         <field/>
-        <filter/>
-        <filter_result/>
+        <filter table="scheduled_import_set">sys_scope=c62f199b1bfcfc1023faeb13604bcb9a^EQ<item display_table="sys_scope" display_value="Service Graph Connector for Radiflow" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="c62f199b1bfcfc1023faeb13604bcb9a"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <filter_result>2</filter_result>
         <implicit_dependent_on>53a7fbdc1bab70100ef431951a4bcb2f</implicit_dependent_on>
         <implicit_plugin_dependencies/>
         <is_dynamic>false</is_dynamic>
@@ -39,7 +41,7 @@
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>gsw_content_information_6169d69d1beff0100ef431951a4bcb8a</sys_update_name>
-        <table/>
+        <table>scheduled_import_set</table>
         <title>Schedule iSID import</title>
         <weight>1</weight>
     </gsw_content_information>
