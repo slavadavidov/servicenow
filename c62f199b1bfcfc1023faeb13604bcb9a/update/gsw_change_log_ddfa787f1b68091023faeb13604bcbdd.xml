@@ -2,7 +2,7 @@
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2021-12-27 12:09:16</change_date>
         <changed_by display_value="Adi Magori">49a878f1db95cd10fef70825ca9619c1</changed_by>
-        <content display_value="Configure iSID connection credential">d9c766191b2334100ef431951a4bcbd2</content>
+        <content display_value="Configure iSID connection">d9c766191b2334100ef431951a4bcbd2</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

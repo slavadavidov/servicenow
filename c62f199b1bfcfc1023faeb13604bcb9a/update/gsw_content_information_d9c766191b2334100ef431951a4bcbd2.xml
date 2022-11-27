@@ -17,7 +17,7 @@
         <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier/>
-        <end_point>/nav_to.do?uri=http_connection.do?sys_id=e38698e1db309d50fef70825ca96197c</end_point>
+        <end_point>/</end_point>
         <end_point_open_mode>2</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
@@ -42,13 +42,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-31 08:38:55</sys_created_on>
         <sys_id>d9c766191b2334100ef431951a4bcbd2</sys_id>
-        <sys_name>Configure iSID connection credential</sys_name>
+        <sys_name>Configure iSID connection</sys_name>
         <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
         <sys_update_name>gsw_content_information_d9c766191b2334100ef431951a4bcbd2</sys_update_name>
         <table/>
-        <title>Configure iSID connection credential</title>
+        <title>Configure iSID connection</title>
         <weight>1</weight>
     </gsw_content_information>
     <sys_translated_text action="delete_multiple" query="documentkey=d9c766191b2334100ef431951a4bcbd2"/>

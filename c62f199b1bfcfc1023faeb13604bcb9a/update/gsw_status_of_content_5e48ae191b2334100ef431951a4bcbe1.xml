@@ -2,12 +2,12 @@
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
         <checksum/>
-        <content display_value="Configure iSID connection credential">d9c766191b2334100ef431951a4bcbd2</content>
+        <content display_value="Configure iSID connection">d9c766191b2334100ef431951a4bcbd2</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>1</previous_status>
         <progress>100</progress>
-        <related_log_entry display_value="2022-11-15 05:08:53">b312e8ffdb8755108c161fdc139619dc</related_log_entry>
+        <related_log_entry display_value="2022-11-15 15:08:53">b312e8ffdb8755108c161fdc139619dc</related_log_entry>
         <status>2</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
