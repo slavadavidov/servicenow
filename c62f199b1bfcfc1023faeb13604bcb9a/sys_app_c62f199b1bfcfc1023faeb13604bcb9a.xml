@@ -22,7 +22,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Radiflow integration</short_description>
         <source>x_radif_sgc</source>
-        <store_correlation_id>REPOAPP0000722523</store_correlation_id>
+        <store_correlation_id>REPOAPP0000726744</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>

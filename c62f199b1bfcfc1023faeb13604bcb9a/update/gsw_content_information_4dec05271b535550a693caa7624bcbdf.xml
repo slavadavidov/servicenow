@@ -15,7 +15,7 @@
         <dependent_on_plugins_ids/>
         <description/>
         <embedded_help_qualifier/>
-        <end_point>/nav_to.do?uri=http_connection.do?sys_id=e38698e1db309d50fef70825ca96197c</end_point>
+        <end_point>/nav_to.do?uri=sys_alias.do?sys_id=613d9f631b5538500ef431951a4bcbc4</end_point>
         <end_point_open_mode>2</end_point_open_mode>
         <end_point_type>1</end_point_type>
         <field/>
