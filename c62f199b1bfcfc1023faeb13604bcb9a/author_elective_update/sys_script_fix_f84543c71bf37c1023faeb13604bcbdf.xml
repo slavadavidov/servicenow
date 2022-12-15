@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Delete all OT records</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var gr= new GlideRecord('cmdb_ci_ot');  
+gr.query();
+gr.setWorkflow(false);
+gr.deleteMultiple();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-18 07:31:52</sys_created_on>
+        <sys_id>f84543c71bf37c1023faeb13604bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete all OT records</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_script_fix_f84543c71bf37c1023faeb13604bcbdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 07:31:52</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_script_fix_f84543c71bf37c1023faeb13604bcbdf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;
+    &lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;
+        &lt;before&gt;false&lt;/before&gt;
+        &lt;description/&gt;
+        &lt;name&gt;Delete all OT records&lt;/name&gt;
+        &lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;
+        &lt;script&gt;&lt;![CDATA[var gr= new GlideRecord('cmdb_ci_ot');  
+gr.query();
+gr.setWorkflow(false);
+gr.deleteMultiple();]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-11-18 07:31:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f84543c71bf37c1023faeb13604bcbdf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Delete all OT records&lt;/sys_name&gt;
+        &lt;sys_package display_value="SG-Radiflow" source="x_radif_sgc"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="SG-Radiflow"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_fix_f84543c71bf37c1023faeb13604bcbdf&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-11-18 07:31:52&lt;/sys_updated_on&gt;
+        &lt;unloadable&gt;false&lt;/unloadable&gt;
+    &lt;/sys_script_fix&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1582833906</payload_hash>
+        <record_name>Delete all OT records</record_name>
+        <reverted_from/>
+        <source>569594a9db309550a1d001a3ca96195c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 16:07:59</sys_created_on>
+        <sys_id>d3e5146ddb309550a1d001a3ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1821737591a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 16:07:59</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>13e5146db13095506a159a70c6c6618e</update_guid>
+        <update_guid_history>13e5146db13095506a159a70c6c6618e:0,cc00d02d31fc5d50992b53c0a55b3acf:-1334177589,d6c3c7f54644951048c2fcdd7de7ef9e:0,a180c73104449510c36ab8722bcdf3c1:-1358678996,09650c0b32dd8150b985426be5698146:1582833906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-14 16:40:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>0c5fb76f0ab54711a66ba995f226a4f9</sys_id>
+        <sys_metadata>f84543c71bf37c1023faeb13604bcbdf</sys_metadata>
+        <sys_name>Delete all OT records</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_script_fix_f84543c71bf37c1023faeb13604bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_f84543c71bf37c1023faeb13604bcbdf">d3e5146ddb309550a1d001a3ca96198e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

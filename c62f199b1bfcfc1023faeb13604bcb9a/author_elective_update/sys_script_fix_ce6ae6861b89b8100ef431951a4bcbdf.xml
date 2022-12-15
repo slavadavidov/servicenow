@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>SG - Radiflow Discovery Source</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var source_name = 'SG-Radiflow';
+var dsUtil = new global.CMDBDataSourceUtil();
+dsUtil.addDataSource(source_name);
+var util = new sn_itom_license.ITOMLicensingUtils();
+util.addDiscoverySource(source_name);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-01 10:08:49</sys_created_on>
+        <sys_id>ce6ae6861b89b8100ef431951a4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SG - Radiflow Discovery Source</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_script_fix_ce6ae6861b89b8100ef431951a4bcbdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 10:08:49</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_script_fix_ce6ae6861b89b8100ef431951a4bcbdf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;
+    &lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;
+        &lt;before&gt;false&lt;/before&gt;
+        &lt;description/&gt;
+        &lt;name&gt;SG - Radiflow Discovery Source&lt;/name&gt;
+        &lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;
+        &lt;script&gt;&lt;![CDATA[var source_name = 'SG-Radiflow';
+var dsUtil = new global.CMDBDataSourceUtil();
+dsUtil.addDataSource(source_name);
+var util = new sn_itom_license.ITOMLicensingUtils();
+util.addDiscoverySource(source_name);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-07-01 10:08:49&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ce6ae6861b89b8100ef431951a4bcbdf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;SG - Radiflow Discovery Source&lt;/sys_name&gt;
+        &lt;sys_package display_value="SG-Radiflow" source="x_radif_sgc"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="SG-Radiflow"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_fix_ce6ae6861b89b8100ef431951a4bcbdf&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-07-01 10:08:49&lt;/sys_updated_on&gt;
+        &lt;unloadable&gt;false&lt;/unloadable&gt;
+    &lt;/sys_script_fix&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1820295346</payload_hash>
+        <record_name>SG - Radiflow Discovery Source</record_name>
+        <reverted_from/>
+        <source>569594a9db309550a1d001a3ca96195c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 16:07:59</sys_created_on>
+        <sys_id>53e5146ddb309550a1d001a3ca96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182173758ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 16:07:59</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>9fe5146d693095506f1d32e85707428a</update_guid>
+        <update_guid_history>9fe5146d693095506f1d32e85707428a:0,52ff8ce973fc5d50d932a3aa629d961c:-729356555,dac3c7f579449510e83eabc033bf0f9a:0,be70033170449510b26b566119589c0c:1850490681,029f7e39130495109a3507da7e4c84e5:0,2683734a5f7781500c3d2abc18f3a027:-1168819038,f413f30ad677815082c253bbbcd72b74:-402168867,41650c0b45dd8150d53f5d1cf2677e44:1820295346</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-14 16:40:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>58f0f4e4d2b549b4900e9b5c4eeaa791</sys_id>
+        <sys_metadata>ce6ae6861b89b8100ef431951a4bcbdf</sys_metadata>
+        <sys_name>SG - Radiflow Discovery Source</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_script_fix_ce6ae6861b89b8100ef431951a4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_ce6ae6861b89b8100ef431951a4bcbdf">53e5146ddb309550a1d001a3ca96198b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

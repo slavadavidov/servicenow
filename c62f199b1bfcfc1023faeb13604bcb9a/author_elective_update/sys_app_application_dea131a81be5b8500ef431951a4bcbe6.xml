@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint>Radiflow application menu</hint>
+        <name/>
+        <order>100</order>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 10:42:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dea131a81be5b8500ef431951a4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Graph Connector for Radiflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_app_application_dea131a81be5b8500ef431951a4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 10:42:12</sys_updated_on>
+        <title>Service Graph Connector for Radiflow</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_app_application_dea131a81be5b8500ef431951a4bcbe6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint>Radiflow application menu</hint>
+        <name/>
+        <order>100</order>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 10:42:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dea131a81be5b8500ef431951a4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Graph Connector for Radiflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_app_application_dea131a81be5b8500ef431951a4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 10:42:12</sys_updated_on>
+        <title>Service Graph Connector for Radiflow</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>2088173906</payload_hash>
+        <record_name>Service Graph Connector for Radiflow</record_name>
+        <reverted_from/>
+        <source>569594a9db309550a1d001a3ca96195c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 16:07:27</sys_created_on>
+        <sys_id>13c5902ddb309550a1d001a3ca9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1821736dbe00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 16:07:27</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>5fc5902d2b30955043adce431cc098a1</update_guid>
+        <update_guid_history>5fc5902d2b30955043adce431cc098a1:0,43ff002d39fc5d50b0a6c7c66cc34b6a:-728213783,15a383b51044951084b756528a9c7361:0,8c80c33113449510be15fd75dbc01345:301444653,e04548c77edd815096f3ed9ea654f743:2088173906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Graph Connector for Radiflow">6b79e64ddb3f59108c161fdc139619d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-14 16:44:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>06b3172dbccc42029cec06509d458304</sys_id>
+        <sys_metadata>dea131a81be5b8500ef431951a4bcbe6</sys_metadata>
+        <sys_name>Service Graph Connector for Radiflow</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_app_application_dea131a81be5b8500ef431951a4bcbe6</sys_update_name>
+        <sys_update_version display_value="sys_app_application_dea131a81be5b8500ef431951a4bcbe6">13c5902ddb309550a1d001a3ca9619a2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
