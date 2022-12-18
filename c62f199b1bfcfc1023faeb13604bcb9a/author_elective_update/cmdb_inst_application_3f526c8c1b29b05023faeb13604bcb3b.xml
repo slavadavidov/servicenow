@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application">
+    <cmdb_inst_application action="DELETE">
+        <discovery_source>SG-Radiflow Tmp A</discovery_source>
+        <name>SG- Radiflow OT Assets Discovery</name>
+        <sys_class_name>cmdb_inst_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:16</sys_created_on>
+        <sys_id>3f526c8c1b29b05023faeb13604bcb3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SG- Radiflow OT Assets Discovery</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_inst_application_3f526c8c1b29b05023faeb13604bcb3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-20 06:46:54</sys_updated_on>
+    </cmdb_inst_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>cmdb_inst_application_3f526c8c1b29b05023faeb13604bcb3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application">
+    <cmdb_inst_application action="INSERT_OR_UPDATE">
+        <discovery_source>SG-Radiflow Tmp A</discovery_source>
+        <name>SG- Radiflow OT Assets Discovery</name>
+        <sys_class_name>cmdb_inst_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:36:16</sys_created_on>
+        <sys_id>3f526c8c1b29b05023faeb13604bcb3b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SG- Radiflow OT Assets Discovery</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_inst_application_3f526c8c1b29b05023faeb13604bcb3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-20 06:46:54</sys_updated_on>
+    </cmdb_inst_application>
+</record_update>]]></payload>
+        <payload_hash>-625705559</payload_hash>
+        <record_name>SG- Radiflow OT Assets Discovery</record_name>
+        <reverted_from/>
+        <source>569594a9db309550a1d001a3ca96195c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 16:06:33</sys_created_on>
+        <sys_id>de9594a9db309550a1d001a3ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182173609710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 16:06:33</sys_updated_on>
+        <type>CMDB Integration Studio Application</type>
+        <update_guid>1e9594a944309550ba3cfd825c92ddac</update_guid>
+        <update_guid_history>1e9594a944309550ba3cfd825c92ddac:0,14cfcc6976fc5d50af72f0ab4bb5f02d:511625778,e6634ff10844951010b7c39b3b1e1412:0,9430c73d6a0495104219a775fdf3017d:102345040,b84fb6b5d30495106a56066b413a8e06:0,5dbbef67dadd05501b497024e56fb707:2120949815,b10500874bdd815014e75b732b105d43:-625705559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SG- Radiflow OT Assets Discovery">e534091a1bbf5d10a693caa7624bcbd7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 06:34:02</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_application">cmdb_inst_application</sys_db_object>
+        <sys_id>48fa0354ae0546b8b2bff1b301e04671</sys_id>
+        <sys_metadata>3f526c8c1b29b05023faeb13604bcb3b</sys_metadata>
+        <sys_name>SG- Radiflow OT Assets Discovery</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>cmdb_inst_application_3f526c8c1b29b05023faeb13604bcb3b</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_application_3f526c8c1b29b05023faeb13604bcb3b">de9594a9db309550a1d001a3ca9619ac</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

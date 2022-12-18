@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_nlu_language">
+    <sys_cs_nlu_language action="DELETE">
+        <enabled>false</enabled>
+        <language display_value="Polish">63caf168db329510a1d001a3ca96196c</language>
+        <sys_class_name>sys_cs_nlu_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 07:00:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>27caf168db329510a1d001a3ca96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_cs_nlu_language_27caf168db329510a1d001a3ca96196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 07:00:24</sys_updated_on>
+    </sys_cs_nlu_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_cs_nlu_language_27caf168db329510a1d001a3ca96196c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_nlu_language"><sys_cs_nlu_language action="INSERT_OR_UPDATE"><enabled>false</enabled><language display_value="Polish">63caf168db329510a1d001a3ca96196c</language><sys_class_name>sys_cs_nlu_language</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-24 07:00:24</sys_created_on><sys_domain>global</sys_domain><sys_id>27caf168db329510a1d001a3ca96196c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>sys_cs_nlu_language_27caf168db329510a1d001a3ca96196c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-24 07:00:24</sys_updated_on></sys_cs_nlu_language></record_update>]]></payload>
+        <payload_hash>1617259753</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c6a011d9dbc11990fef70825ca9619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 07:00:24</sys_created_on>
+        <sys_id>2bcaf168db329510a1d001a3ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18408cae0370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 07:00:24</sys_updated_on>
+        <type>VA NLU Language</type>
+        <update_guid>23caf168a83295108757ed43e8b31a6d</update_guid>
+        <update_guid_history>23caf168a83295108757ed43e8b31a6d:1617259753</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 06:32:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_nlu_language">sys_cs_nlu_language</sys_db_object>
+        <sys_id>0a65a9a22cf44a5281887c46f584b629</sys_id>
+        <sys_metadata>27caf168db329510a1d001a3ca96196c</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_cs_nlu_language_27caf168db329510a1d001a3ca96196c</sys_update_name>
+        <sys_update_version display_value="sys_cs_nlu_language_27caf168db329510a1d001a3ca96196c">2bcaf168db329510a1d001a3ca96196d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

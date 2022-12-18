@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application">
+    <cmdb_inst_application action="DELETE">
+        <discovery_source>SG-Radiflow Tmp</discovery_source>
+        <name>Tmp Radiflow</name>
+        <sys_class_name>cmdb_inst_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:22:22</sys_created_on>
+        <sys_id>1c3f180c1b29b05023faeb13604bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tmp Radiflow</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_inst_application_1c3f180c1b29b05023faeb13604bcbae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:22:22</sys_updated_on>
+    </cmdb_inst_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>cmdb_inst_application_1c3f180c1b29b05023faeb13604bcbae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_inst_application">
+    <cmdb_inst_application action="INSERT_OR_UPDATE">
+        <discovery_source>SG-Radiflow Tmp</discovery_source>
+        <name>Tmp Radiflow</name>
+        <sys_class_name>cmdb_inst_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 15:22:22</sys_created_on>
+        <sys_id>1c3f180c1b29b05023faeb13604bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tmp Radiflow</sys_name>
+        <sys_package display_value="SG-Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SG-Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>cmdb_inst_application_1c3f180c1b29b05023faeb13604bcbae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:22:22</sys_updated_on>
+    </cmdb_inst_application>
+</record_update>]]></payload>
+        <payload_hash>2075587080</payload_hash>
+        <record_name>Tmp Radiflow</record_name>
+        <reverted_from/>
+        <source>569594a9db309550a1d001a3ca96195c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 16:06:33</sys_created_on>
+        <sys_id>5e9594a9db309550a1d001a3ca9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182173609520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 16:06:33</sys_updated_on>
+        <type>CMDB Integration Studio Application</type>
+        <update_guid>9a9594a9333095508a7f5f326ac278a9</update_guid>
+        <update_guid_history>9a9594a9333095508a7f5f326ac278a9:0,d8bfc4697dfc5d50971583a5a274adc7:-637944634,ea634ff1b84495107b5594ebb4ae640e:0,6b108bf94b049510d550e3e59455ffa2:-1579634726,f9050087f9dd8150bab4dfc509341240:2075587080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tmp Radiflow">f244455a1bbf5d10a693caa7624bcb00</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 06:34:24</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_inst_application">cmdb_inst_application</sys_db_object>
+        <sys_id>49e7e60c3fd64780af26041b0ca0e900</sys_id>
+        <sys_metadata>1c3f180c1b29b05023faeb13604bcbae</sys_metadata>
+        <sys_name>Tmp Radiflow</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>cmdb_inst_application_1c3f180c1b29b05023faeb13604bcbae</sys_update_name>
+        <sys_update_version display_value="cmdb_inst_application_1c3f180c1b29b05023faeb13604bcbae">5e9594a9db309550a1d001a3ca9619a9</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="open_nlu_driver_language">
+    <open_nlu_driver_language action="DELETE">
+        <code>es</code>
+        <driver display_value="">64c023c17300330021a044764df6a70e</driver>
+        <driver_codes>es</driver_codes>
+        <language>Spanish</language>
+        <sys_class_name>open_nlu_driver_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 07:00:23</sys_created_on>
+        <sys_id>53caf168db329510a1d001a3ca961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Spanish</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>open_nlu_driver_language_53caf168db329510a1d001a3ca961960</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 07:00:23</sys_updated_on>
+    </open_nlu_driver_language>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>open_nlu_driver_language_53caf168db329510a1d001a3ca961960</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="open_nlu_driver_language"><open_nlu_driver_language action="INSERT_OR_UPDATE"><code>es</code><driver display_value="">64c023c17300330021a044764df6a70e</driver><driver_codes>es</driver_codes><language>Spanish</language><sys_class_name>open_nlu_driver_language</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-24 07:00:23</sys_created_on><sys_id>53caf168db329510a1d001a3ca961960</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Spanish</sys_name><sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package><sys_policy/><sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope><sys_update_name>open_nlu_driver_language_53caf168db329510a1d001a3ca961960</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-24 07:00:23</sys_updated_on></open_nlu_driver_language></record_update>]]></payload>
+        <payload_hash>2101548931</payload_hash>
+        <record_name>Spanish</record_name>
+        <reverted_from/>
+        <source>c6a011d9dbc11990fef70825ca9619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 07:00:24</sys_created_on>
+        <sys_id>5fcaf168db329510a1d001a3ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18408cadf3a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 07:00:24</sys_updated_on>
+        <type>Open NLU Driver Language</type>
+        <update_guid>57caf16820329510c18d5b679ce09562</update_guid>
+        <update_guid_history>57caf16820329510c18d5b679ce09562:2101548931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Spanish">0c14015a1bbf5d10a693caa7624bcb05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 06:33:23</sys_created_on>
+        <sys_db_object display_value="" name="open_nlu_driver_language">open_nlu_driver_language</sys_db_object>
+        <sys_id>bb5b905e0c074e589310dcede4047840</sys_id>
+        <sys_metadata>53caf168db329510a1d001a3ca961960</sys_metadata>
+        <sys_name>Spanish</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>open_nlu_driver_language_53caf168db329510a1d001a3ca961960</sys_update_name>
+        <sys_update_version display_value="open_nlu_driver_language_53caf168db329510a1d001a3ca961960">5fcaf168db329510a1d001a3ca961962</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
