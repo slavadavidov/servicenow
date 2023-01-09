@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_radif_sgc.SGRadiflowHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SGRadiflowHelper</name>
+        <script><![CDATA[var SGRadiflowHelper = Class.create();
+SGRadiflowHelper.prototype = {
+    initialize: function() {},
+    decrypt: function(decryptstring) {
+        var GlideEncrypter = Packages.com.glide.util.GlideEncrypter;
+        var encrypter = new GlideEncrypter();
+        var encryptedString = encrypter.GlideEncrypter("my secret message");
+		return encryptedString;
+
+    },
+
+    type: 'SGRadiflowHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 13:44:02</sys_created_on>
+        <sys_id>64962ad61bf39d10a693caa7624bcb52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SGRadiflowHelper</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_update_name>sys_script_include_64962ad61bf39d10a693caa7624bcb52</sys_update_name>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-12-18 13:45:13</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</application>
+        <file_path/>
+        <instance_id>3403bf9ddb374c5052dd2f17d4961952</instance_id>
+        <instance_name>ven03626</instance_name>
+        <name>sys_script_include_64962ad61bf39d10a693caa7624bcb52</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_radif_sgc.SGRadiflowHelper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SGRadiflowHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SGRadiflowHelper = Class.create();
+SGRadiflowHelper.prototype = {
+    initialize: function() {},
+    decrypt: function(decryptstring) {
+        var GlideEncrypter = Packages.com.glide.util.GlideEncrypter;
+        var encrypter = new GlideEncrypter();
+        var encryptedString = encrypter.GlideEncrypter("my secret message");
+		return encryptedString;
+
+    },
+
+    type: 'SGRadiflowHelper'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;liorg&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-12-18 13:44:02&lt;/sys_created_on&gt;&lt;sys_id&gt;64962ad61bf39d10a693caa7624bcb52&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SGRadiflowHelper&lt;/sys_name&gt;&lt;sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Service Graph Connector for Radiflow"&gt;c62f199b1bfcfc1023faeb13604bcb9a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_64962ad61bf39d10a693caa7624bcb52&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;liorg&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-12-18 13:45:13&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2123532182</payload_hash>
+        <record_name>SGRadiflowHelper</record_name>
+        <reverted_from/>
+        <source>03489900dbd795108c161fdc1396196c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 13:45:13</sys_created_on>
+        <sys_id>79e66a1a1bf39d10a693caa7624bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185257b45020000001</sys_recorded_at>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-12-18 13:45:13</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>31e66a1aa6f39d10e4d730dcb24879fb</update_guid>
+        <update_guid_history>31e66a1aa6f39d10e4d730dcb24879fb:-2123532182,a8a62a1a9af39d10596cc836091f0d7a:1458831528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>liorg</sys_created_by>
+        <sys_created_on>2022-12-18 13:48:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3c0f8296141f49e4a18a22d1c5107c10</sys_id>
+        <sys_metadata>64962ad61bf39d10a693caa7624bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SGRadiflowHelper</sys_name>
+        <sys_package display_value="Service Graph Connector for Radiflow" source="x_radif_sgc">c62f199b1bfcfc1023faeb13604bcb9a</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Service Graph Connector for Radiflow">c62f199b1bfcfc1023faeb13604bcb9a</sys_scope>
+        <sys_scope_delete display_value="">04c6e41f2eef41ac9fdcd61f21a12004</sys_scope_delete>
+        <sys_update_name>sys_script_include_64962ad61bf39d10a693caa7624bcb52</sys_update_name>
+        <sys_update_version display_value="sys_script_include_64962ad61bf39d10a693caa7624bcb52">79e66a1a1bf39d10a693caa7624bcbfb</sys_update_version>
+        <sys_updated_by>liorg</sys_updated_by>
+        <sys_updated_on>2022-12-18 13:48:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
